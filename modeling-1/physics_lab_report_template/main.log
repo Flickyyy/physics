@@ -1,0 +1,3237 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.11.4)  4 NOV 2024 17:16
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/flicky/itmo/phys/modeling-1/physics_lab_report_template/main.tex
+(/home/flicky/itmo/phys/modeling-1/physics_lab_report_template/main.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (./preamble.sty
+Package: preamble 
+ (/usr/share/texlive/texmf-dist/tex/latex/cmap/cmap.sty
+Package: cmap 2021/02/06 v1.0j CMap support: searchable PDF
+) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+ (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2aenc.def
+File: t2aenc.def 2022/06/11 v1.0j Cyrillic encoding definition file
+Now handling font encoding T2A ...
+... processing UTF-8 mapping file for font encoding T2A
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t2aenc.dfu
+File: t2aenc.dfu 2022/06/07 v1.3c UTF-8 support
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0237 (decimal 567)
+   defining Unicode char U+0400 (decimal 1024)
+   defining Unicode char U+0401 (decimal 1025)
+   defining Unicode char U+0402 (decimal 1026)
+   defining Unicode char U+0403 (decimal 1027)
+   defining Unicode char U+0404 (decimal 1028)
+   defining Unicode char U+0405 (decimal 1029)
+   defining Unicode char U+0406 (decimal 1030)
+   defining Unicode char U+0407 (decimal 1031)
+   defining Unicode char U+0408 (decimal 1032)
+   defining Unicode char U+0409 (decimal 1033)
+   defining Unicode char U+040A (decimal 1034)
+   defining Unicode char U+040B (decimal 1035)
+   defining Unicode char U+040C (decimal 1036)
+   defining Unicode char U+040D (decimal 1037)
+   defining Unicode char U+040E (decimal 1038)
+   defining Unicode char U+040F (decimal 1039)
+   defining Unicode char U+0410 (decimal 1040)
+   defining Unicode char U+0411 (decimal 1041)
+   defining Unicode char U+0412 (decimal 1042)
+   defining Unicode char U+0413 (decimal 1043)
+   defining Unicode char U+0414 (decimal 1044)
+   defining Unicode char U+0415 (decimal 1045)
+   defining Unicode char U+0416 (decimal 1046)
+   defining Unicode char U+0417 (decimal 1047)
+   defining Unicode char U+0418 (decimal 1048)
+   defining Unicode char U+0419 (decimal 1049)
+   defining Unicode char U+041A (decimal 1050)
+   defining Unicode char U+041B (decimal 1051)
+   defining Unicode char U+041C (decimal 1052)
+   defining Unicode char U+041D (decimal 1053)
+   defining Unicode char U+041E (decimal 1054)
+   defining Unicode char U+041F (decimal 1055)
+   defining Unicode char U+0420 (decimal 1056)
+   defining Unicode char U+0421 (decimal 1057)
+   defining Unicode char U+0422 (decimal 1058)
+   defining Unicode char U+0423 (decimal 1059)
+   defining Unicode char U+0424 (decimal 1060)
+   defining Unicode char U+0425 (decimal 1061)
+   defining Unicode char U+0426 (decimal 1062)
+   defining Unicode char U+0427 (decimal 1063)
+   defining Unicode char U+0428 (decimal 1064)
+   defining Unicode char U+0429 (decimal 1065)
+   defining Unicode char U+042A (decimal 1066)
+   defining Unicode char U+042B (decimal 1067)
+   defining Unicode char U+042C (decimal 1068)
+   defining Unicode char U+042D (decimal 1069)
+   defining Unicode char U+042E (decimal 1070)
+   defining Unicode char U+042F (decimal 1071)
+   defining Unicode char U+0430 (decimal 1072)
+   defining Unicode char U+0431 (decimal 1073)
+   defining Unicode char U+0432 (decimal 1074)
+   defining Unicode char U+0433 (decimal 1075)
+   defining Unicode char U+0434 (decimal 1076)
+   defining Unicode char U+0435 (decimal 1077)
+   defining Unicode char U+0436 (decimal 1078)
+   defining Unicode char U+0437 (decimal 1079)
+   defining Unicode char U+0438 (decimal 1080)
+   defining Unicode char U+0439 (decimal 1081)
+   defining Unicode char U+043A (decimal 1082)
+   defining Unicode char U+043B (decimal 1083)
+   defining Unicode char U+043C (decimal 1084)
+   defining Unicode char U+043D (decimal 1085)
+   defining Unicode char U+043E (decimal 1086)
+   defining Unicode char U+043F (decimal 1087)
+   defining Unicode char U+0440 (decimal 1088)
+   defining Unicode char U+0441 (decimal 1089)
+   defining Unicode char U+0442 (decimal 1090)
+   defining Unicode char U+0443 (decimal 1091)
+   defining Unicode char U+0444 (decimal 1092)
+   defining Unicode char U+0445 (decimal 1093)
+   defining Unicode char U+0446 (decimal 1094)
+   defining Unicode char U+0447 (decimal 1095)
+   defining Unicode char U+0448 (decimal 1096)
+   defining Unicode char U+0449 (decimal 1097)
+   defining Unicode char U+044A (decimal 1098)
+   defining Unicode char U+044B (decimal 1099)
+   defining Unicode char U+044C (decimal 1100)
+   defining Unicode char U+044D (decimal 1101)
+   defining Unicode char U+044E (decimal 1102)
+   defining Unicode char U+044F (decimal 1103)
+   defining Unicode char U+0450 (decimal 1104)
+   defining Unicode char U+0451 (decimal 1105)
+   defining Unicode char U+0452 (decimal 1106)
+   defining Unicode char U+0453 (decimal 1107)
+   defining Unicode char U+0454 (decimal 1108)
+   defining Unicode char U+0455 (decimal 1109)
+   defining Unicode char U+0456 (decimal 1110)
+   defining Unicode char U+0457 (decimal 1111)
+   defining Unicode char U+0458 (decimal 1112)
+   defining Unicode char U+0459 (decimal 1113)
+   defining Unicode char U+045A (decimal 1114)
+   defining Unicode char U+045B (decimal 1115)
+   defining Unicode char U+045C (decimal 1116)
+   defining Unicode char U+045D (decimal 1117)
+   defining Unicode char U+045E (decimal 1118)
+   defining Unicode char U+045F (decimal 1119)
+   defining Unicode char U+0490 (decimal 1168)
+   defining Unicode char U+0491 (decimal 1169)
+   defining Unicode char U+0492 (decimal 1170)
+   defining Unicode char U+0493 (decimal 1171)
+   defining Unicode char U+0496 (decimal 1174)
+   defining Unicode char U+0497 (decimal 1175)
+   defining Unicode char U+0498 (decimal 1176)
+   defining Unicode char U+0499 (decimal 1177)
+   defining Unicode char U+049A (decimal 1178)
+   defining Unicode char U+049B (decimal 1179)
+   defining Unicode char U+049C (decimal 1180)
+   defining Unicode char U+049D (decimal 1181)
+   defining Unicode char U+04A0 (decimal 1184)
+   defining Unicode char U+04A1 (decimal 1185)
+   defining Unicode char U+04A2 (decimal 1186)
+   defining Unicode char U+04A3 (decimal 1187)
+   defining Unicode char U+04A4 (decimal 1188)
+   defining Unicode char U+04A5 (decimal 1189)
+   defining Unicode char U+04AA (decimal 1194)
+   defining Unicode char U+04AB (decimal 1195)
+   defining Unicode char U+04AE (decimal 1198)
+   defining Unicode char U+04AF (decimal 1199)
+   defining Unicode char U+04B0 (decimal 1200)
+   defining Unicode char U+04B1 (decimal 1201)
+   defining Unicode char U+04B2 (decimal 1202)
+   defining Unicode char U+04B3 (decimal 1203)
+   defining Unicode char U+04B6 (decimal 1206)
+   defining Unicode char U+04B7 (decimal 1207)
+   defining Unicode char U+04B8 (decimal 1208)
+   defining Unicode char U+04B9 (decimal 1209)
+   defining Unicode char U+04BA (decimal 1210)
+   defining Unicode char U+04BB (decimal 1211)
+   defining Unicode char U+04C0 (decimal 1216)
+   defining Unicode char U+04C1 (decimal 1217)
+   defining Unicode char U+04C2 (decimal 1218)
+   defining Unicode char U+04D0 (decimal 1232)
+   defining Unicode char U+04D1 (decimal 1233)
+   defining Unicode char U+04D2 (decimal 1234)
+   defining Unicode char U+04D3 (decimal 1235)
+   defining Unicode char U+04D4 (decimal 1236)
+   defining Unicode char U+04D5 (decimal 1237)
+   defining Unicode char U+04D6 (decimal 1238)
+   defining Unicode char U+04D7 (decimal 1239)
+   defining Unicode char U+04D8 (decimal 1240)
+   defining Unicode char U+04D9 (decimal 1241)
+   defining Unicode char U+04DA (decimal 1242)
+   defining Unicode char U+04DB (decimal 1243)
+   defining Unicode char U+04DC (decimal 1244)
+   defining Unicode char U+04DD (decimal 1245)
+   defining Unicode char U+04DE (decimal 1246)
+   defining Unicode char U+04DF (decimal 1247)
+   defining Unicode char U+04E2 (decimal 1250)
+   defining Unicode char U+04E3 (decimal 1251)
+   defining Unicode char U+04E4 (decimal 1252)
+   defining Unicode char U+04E5 (decimal 1253)
+   defining Unicode char U+04E6 (decimal 1254)
+   defining Unicode char U+04E7 (decimal 1255)
+   defining Unicode char U+04E8 (decimal 1256)
+   defining Unicode char U+04E9 (decimal 1257)
+   defining Unicode char U+04EC (decimal 1260)
+   defining Unicode char U+04ED (decimal 1261)
+   defining Unicode char U+04EE (decimal 1262)
+   defining Unicode char U+04EF (decimal 1263)
+   defining Unicode char U+04F0 (decimal 1264)
+   defining Unicode char U+04F1 (decimal 1265)
+   defining Unicode char U+04F2 (decimal 1266)
+   defining Unicode char U+04F3 (decimal 1267)
+   defining Unicode char U+04F4 (decimal 1268)
+   defining Unicode char U+04F5 (decimal 1269)
+   defining Unicode char U+04F8 (decimal 1272)
+   defining Unicode char U+04F9 (decimal 1273)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+3008 (decimal 12296)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+3009 (decimal 12297)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+27E8 (decimal 10216)
+   defining Unicode char U+27E9 (decimal 10217)
+   defining Unicode char U+FB00 (decimal 64256)
+   defining Unicode char U+FB01 (decimal 64257)
+   defining Unicode char U+FB02 (decimal 64258)
+   defining Unicode char U+FB03 (decimal 64259)
+   defining Unicode char U+FB04 (decimal 64260)
+   defining Unicode char U+FB05 (decimal 64261)
+   defining Unicode char U+FB06 (decimal 64262)
+))<<t1.cmap>>) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2023/02/13 3.86 The Babel package
+\babel@savecnt=\count193
+\U@D=\dimen141
+\l@unhyphenated=\language85
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count194
+ (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language21). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language21). Reported on input line 108.
+) (/usr/share/texlive/texmf-dist/tex/generic/babel-russian/russianb.ldf
+File: russianb.ldf 2021/01/10 1.3m Russian support for the Babel system
+Language: russian 2020/09/09 1.3k Russian support for the Babel system
+Package babel Info: Making " an active character on input line 124.
+Package babel Info: Default for \cyrdash is provided on input line 163.
+)) (/usr/share/texlive/texmf-dist/tex/generic/babel/locale/ru/babel-russian.tex
+Package babel Info: Importing font and identification data for russian
+(babel)             from babel-ru.ini. Reported on input line 11.
+) (/usr/share/texlive/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks18
+\thm@bodyfont=\toks19
+\thm@headfont=\toks20
+\thm@notefont=\toks21
+\thm@headpunct=\toks22
+\thm@preskip=\skip50
+\thm@postskip=\skip51
+\thm@headsep=\skip52
+\dth@everypar=\toks23
+) (/usr/share/texlive/texmf-dist/tex/latex/thmtools/thmtools.sty
+Package: thmtools 2023/02/17 v0.75
+\thmt@toks=\toks24
+\c@thmt@dummyctr=\count195
+ (/usr/share/texlive/texmf-dist/tex/latex/thmtools/thm-patch.sty
+Package: thm-patch 2023/02/17 v0.75
+ (/usr/share/texlive/texmf-dist/tex/latex/thmtools/parseargs.sty
+Package: parseargs 2023/02/17 v0.75
+\@parsespec=\toks25
+)) (/usr/share/texlive/texmf-dist/tex/latex/thmtools/thm-kv.sty
+Package: thm-kv 2023/02/17 v0.75
+Package thm-kv Info: Theorem names will be uppercased on input line 42.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks26
+) (/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+Package thm-kv Info: kvsetkeys patch (v1.16 or later) on input line 158.
+) (/usr/share/texlive/texmf-dist/tex/latex/thmtools/thm-autoref.sty
+Package: thm-autoref 2023/02/17 v0.75
+ (/usr/share/texlive/texmf-dist/tex/latex/thmtools/aliasctr.sty
+Package: aliasctr 2023/02/17 v0.75
+)) (/usr/share/texlive/texmf-dist/tex/latex/thmtools/thm-listof.sty
+Package: thm-listof 2023/02/17 v0.75
+) (/usr/share/texlive/texmf-dist/tex/latex/thmtools/thm-restate.sty
+Package: thm-restate 2023/02/17 v0.75
+) (/usr/share/texlive/texmf-dist/tex/latex/thmtools/thm-amsthm.sty
+Package: thm-amsthm 2023/02/17 v0.75
+\thmt@style@headstyle=\toks27
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip53
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks28
+\ex@=\dimen142
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen143
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count196
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count197
+\leftroot@=\count198
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count199
+\DOTSCASE@=\count266
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen144
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count267
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count268
+\dotsspace@=\muskip16
+\c@parentequation=\count269
+\dspbrk@lvl=\count270
+\tag@help=\toks29
+\row@=\count271
+\column@=\count272
+\maxfields@=\count273
+\andhelp@=\toks30
+\eqnshift@=\dimen145
+\alignsep@=\dimen146
+\tagshift@=\dimen147
+\tagwidth@=\dimen148
+\totwidth@=\dimen149
+\lineht@=\dimen150
+\@envbody=\toks31
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks32
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count274
+\calc@Bcount=\count275
+\calc@Adimen=\dimen151
+\calc@Bdimen=\dimen152
+\calc@Askip=\skip56
+\calc@Bskip=\skip57
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count276
+\calc@Cskip=\skip58
+) (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count277
+\l_MT_multwidth_dim=\dimen153
+\origjot=\skip59
+\l_MT_shortvdotswithinadjustabove_dim=\dimen154
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen155
+\l_MT_above_intertext_sep=\dimen156
+\l_MT_below_intertext_sep=\dimen157
+\l_MT_above_shortintertext_sep=\dimen158
+\l_MT_below_shortintertext_sep=\dimen159
+\xmathstrut@box=\box53
+\xmathstrut@dim=\dimen160
+) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/share/texlive/texmf-dist/tex/latex/newtx/newtxmath.sty
+Package: newtxmath 2022/01/16 v1.71
+ `newtxmath' v1.71, 2022/01/16 Math macros based originally on txfonts (msharpe) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count278
+) (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)) (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+) (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks33
+\XKV@tempa@toks=\toks34
+)
+\XKV@depth=\count279
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/centernot.sty
+Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
+)
+\tx@cntz=\count280
+ (/usr/share/texlive/texmf-dist/tex/generic/kastrup/binhex.tex)
+\tx@Isdigit=\count281
+\tx@IsAlNum=\count282
+\tx@tA=\toks35
+\tx@tB=\toks36
+\tx@su=\read3
+
+amsthm NOT loaded
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 376.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/m/n on input line 376.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmr/m/n on input line 376.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/sb/n on input line 377.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 383.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 383.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 383.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 384.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/cmr/m/it on input line 384.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/cmr/m/it on input line 384.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 385.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 385.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 385.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 387.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/cmr/sb/n on input line 387.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmr/sb/n on input line 387.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/m/it --> OT1/cmr/sb/it on input line 388.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 389.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 390.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 407.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/nxlmi/m/it on input line 407.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/nxlmi/m/it on input line 407.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/nxlmi/m/it --> OML/nxlmi/b/it on input line 408.
+\symlettersA=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/ntxmia/m/it --> U/ntxmia/b/it on input line 547.
+LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 549.
+Now handling font encoding LMS ...
+... no UTF-8 mapping file for font encoding LMS
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 568.
+LaTeX Font Info:    Encoding `OMS' has changed to `LMS' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 568.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> LMS/ntxsy/m/n on input line 568.
+LaTeX Font Info:    Encoding `OMS' has changed to `LMS' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 568.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> LMS/ntxsy/m/n on input line 568.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  LMS/ntxsy/m/n --> LMS/ntxsy/b/n on input line 569.
+\symAMSm=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `AMSm' in version `bold'
+(Font)                  U/ntxsym/m/n --> U/ntxsym/b/n on input line 594.
+\symsymbolsC=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/ntxsyc/m/n --> U/ntxsyc/b/n on input line 615.
+Now handling font encoding LMX ...
+... no UTF-8 mapping file for font encoding LMX
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 628.
+LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 628.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 628.
+LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 628.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 628.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  LMX/ntxexx/m/n --> LMX/ntxexx/b/n on input line 629.
+\symlargesymbolsTXA=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `largesymbolsTXA' in version `bold'
+(Font)                  U/ntxexa/m/n --> U/ntxexa/b/n on input line 643.
+\tx@sbptoks=\toks37
+LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 866.
+LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 867.
+LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 868.
+LaTeX Font Info:    Redeclaring math delimiter \rceil on input line 869.
+LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 870.
+LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 871.
+LaTeX Font Info:    Redeclaring math delimiter \langle on input line 872.
+LaTeX Font Info:    Redeclaring math delimiter \rangle on input line 874.
+LaTeX Font Info:    Redeclaring math delimiter \arrowvert on input line 878.
+LaTeX Font Info:    Redeclaring math delimiter \vert on input line 879.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 950.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 951.
+LaTeX Font Info:    Redeclaring math accent \vec on input line 2020.
+LaTeX Info: Redefining \Bbbk on input line 2810.
+LaTeX Info: Redefining \not on input line 2959.
+LaTeX Info: Redefining \textsquare on input line 2989.
+LaTeX Info: Redefining \openbox on input line 2991.
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
+\MT@toks=\toks38
+\MT@tempbox=\box54
+\MT@count=\count283
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1059.
+LaTeX Info: Redefining \leftprotrusion on input line 1060.
+\MT@prot@toks=\toks39
+LaTeX Info: Redefining \rightprotrusion on input line 1078.
+LaTeX Info: Redefining \textls on input line 1368.
+\MT@outer@kern=\dimen161
+LaTeX Info: Redefining \textmicrotypecontext on input line 1988.
+\MT@listname@count=\count284
+ (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2023/03/13 v3.1a Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 902.
+LaTeX Info: Redefining \lslig on input line 902.
+\MT@outer@space=\skip60
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+ (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
+)) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count285
+\Gm@cntv=\count286
+\c@Gm@tempcnt=\count287
+\Gm@bindingoffset=\dimen162
+\Gm@wd@mp=\dimen163
+\Gm@odd@mp=\dimen164
+\Gm@even@mp=\dimen165
+\Gm@layoutwidth=\dimen166
+\Gm@layoutheight=\dimen167
+\Gm@layouthoffset=\dimen168
+\Gm@layoutvoffset=\dimen169
+\Gm@dimlist=\toks40
+) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Package option `usenames' ignored on input line 218.
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen170
+\Gin@req@width=\dimen171
+) (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen172
+\WF@size=\dimen173
+\c@WF@wrappedlines=\count288
+\WF@box=\box55
+\WF@everypar=\toks41
+Package: wrapfig 2003/01/31  v 3.6
+) (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2022/12/19 v0.5x Insert pages of external PDF documents (AM)
+ (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen174
+\ESO@tempdimb=\dimen175
+)
+\AM@pagewidth=\dimen176
+\AM@pageheight=\dimen177
+\AM@fboxrule=\dimen178
+ (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count289
+\AM@pagebox=\box56
+\AM@global@opts=\toks42
+\AM@pagecnt=\count290
+\AM@toc@title=\toks43
+\AM@lof@heading=\toks44
+\c@AM@survey=\count291
+\AM@templatesizebox=\box57
+) (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
+\c@tracingmulticols=\count292
+\mult@box=\box58
+\multicol@leftmargin=\dimen179
+\c@unbalance=\count293
+\c@collectmore=\count294
+\doublecol@number=\count295
+\multicoltolerance=\count296
+\multicolpretolerance=\count297
+\full@width=\dimen180
+\page@free=\dimen181
+\premulticols=\dimen182
+\postmulticols=\dimen183
+\multicolsep=\skip61
+\multicolbaselineskip=\skip62
+\partial@page=\box59
+\last@line=\box60
+\maxbalancingoverflow=\dimen184
+\mult@rightbox=\box61
+\mult@grightbox=\box62
+\mult@firstbox=\box63
+\mult@gfirstbox=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\c@minrows=\count298
+\c@columnbadness=\count299
+\c@finalcolumnbadness=\count300
+\last@try=\dimen185
+\multicolovershoot=\dimen186
+\multicolundershoot=\dimen187
+\mult@nat@firstbox=\box101
+\colbreak@box=\box102
+\mc@col@check@num=\count301
+) (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip63
+\multirow@cntb=\count302
+\multirow@dima=\skip64
+\bigstrutjot=\dimen188
+) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen189
+\lightrulewidth=\dimen190
+\cmidrulewidth=\dimen191
+\belowrulesep=\dimen192
+\belowbottomsep=\dimen193
+\aboverulesep=\dimen194
+\abovetopsep=\dimen195
+\cmidrulesep=\dimen196
+\cmidrulekern=\dimen197
+\defaultaddspace=\dimen198
+\@cmidla=\count303
+\@cmidlb=\count304
+\@aboverulesep=\dimen199
+\@belowrulesep=\dimen256
+\@thisruleclass=\count305
+\@lastruleclass=\count306
+\@thisrulewidth=\dimen257
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/03/12 v3.6j Customizing captions (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
+\caption@tempdima=\dimen258
+\captionmargin=\dimen259
+\caption@leftmargin=\dimen260
+\caption@rightmargin=\dimen261
+\caption@width=\dimen262
+\caption@indent=\dimen263
+\caption@parindent=\dimen264
+\caption@hangindent=\dimen265
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count307
+\c@continuedfloat=\count308
+Package caption Info: wrapfig package is loaded.
+) (/usr/share/texlive/texmf-dist/tex/latex/scalerel/scalerel.sty
+Package: scalerel 2016/12/29 v1.8 Routines for constrained scaling and stretching of objects, relative to a reference object or in absolute terms
+\thesrwidth=\skip65
+\thesrheight=\skip66
+\srblobheight=\skip67
+\srblobdepth=\skip68
+\mnxsrwidth=\skip69
+\LMex=\skip70
+\LMpt=\skip71
+) (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+ (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+ (/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box103
+)
+\tc@llx=\dimen266
+\tc@lly=\dimen267
+\tc@urx=\dimen268
+\tc@ury=\dimen269
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen270
+\adjbox@Height=\dimen271
+\adjbox@Depth=\dimen272
+\adjbox@Totalheight=\dimen273
+\adjbox@pwidth=\dimen274
+\adjbox@pheight=\dimen275
+\adjbox@pdepth=\dimen276
+\adjbox@ptotalheight=\dimen277
+ (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count309
+) (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box104
+\sift@deathcycles=\count310
+\@vwid@loff=\dimen278
+\@vwid@roff=\dimen279
+)) (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
+\csq@reset=\count311
+\csq@gtype=\count312
+\csq@glevel=\count313
+\csq@qlevel=\count314
+\csq@maxlvl=\count315
+\csq@tshold=\count316
+\csq@ltx@everypar=\toks45
+ (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+ (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+)
+Package csquotes Info: Enabling multilingual quotes.
+) (/usr/share/texlive/texmf-dist/tex/latex/xifthen/xifthen.sty
+Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
+ (/usr/share/texlive/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
+)) (/usr/share/texlive/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+) (/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box105
+\UL@hyphenbox=\box106
+\UL@skip=\skip72
+\UL@hook=\toks46
+\UL@height=\dimen280
+\UL@pe=\count317
+\UL@pixel=\dimen281
+\ULC@box=\box107
+Package: ulem 2019/11/18
+\ULdepth=\dimen282
+) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count318
+\float@exts=\toks47
+\float@box=\box108
+\@float@everytoks=\toks48
+\@floatcapt=\box109
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2022/01/05 v1.2f Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup10
+\symboldletters=\mathgroup11
+\symboldsymbols=\mathgroup12
+\symboldlargesymbols=\mathgroup13
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+) (/usr/share/texlive/texmf-dist/tex/latex/ncctools/extdash.sty
+Package: extdash 2018/06/24 v1.3 Extended Dash Package (NCC)
+) (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip73
+\f@nch@O@elh=\skip74
+\f@nch@O@erh=\skip75
+\f@nch@O@olh=\skip76
+\f@nch@O@orh=\skip77
+\f@nch@O@elf=\skip78
+\f@nch@O@erf=\skip79
+\f@nch@O@olf=\skip80
+\f@nch@O@orf=\skip81
+) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip82
+\enit@outerparindent=\dimen283
+\enit@toks=\toks49
+\enit@inbox=\box110
+\enit@count@id=\count319
+\enitdp@description=\count320
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen284
+\ar@mcellbox=\box111
+\extrarowheight=\dimen285
+\NC@list=\toks50
+\extratabsurround=\skip83
+\backup@length=\skip84
+\ar@cellbox=\box112
+)
+\TX@col@width=\dimen286
+\TX@old@table=\dimen287
+\TX@old@col=\dimen288
+\TX@target=\dimen289
+\TX@delta=\dimen290
+\TX@cols=\count321
+\TX@ftn=\toks51
+) (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box113
+\beforetitleunit=\skip85
+\aftertitleunit=\skip86
+\ttl@plus=\dimen291
+\ttl@minus=\dimen292
+\ttl@toksa=\toks52
+\titlewidth=\dimen293
+\titlewidthlast=\dimen294
+\titlewidthfirst=\dimen295
+) (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2023-02-22 L3 programming layer (loader) 
+ (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count322
+\l__pdf_internal_box=\box114
+))
+Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
+ (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2023-02-02 LaTeX2e option processing using LaTeX3 keys
+) (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2023-02-02 L3 Experimental document command parser
+) (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/fontawesome5-generic-helper.sty
+Package: fontawesome5-generic-helper 2022/05/02 v5.15.4 non-uTeX helper for fontawesome5
+ (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/fontawesome5-mapping.def))) (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count323
+\l__lipsum_a_int=\count324
+\l__lipsum_b_int=\count325
+ (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex)) (/usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2023/02/25 v3.4 ragged2e Package
+\CenteringLeftskip=\skip87
+\RaggedLeftLeftskip=\skip88
+\RaggedRightLeftskip=\skip89
+\CenteringRightskip=\skip90
+\RaggedLeftRightskip=\skip91
+\RaggedRightRightskip=\skip92
+\CenteringParfillskip=\skip93
+\RaggedLeftParfillskip=\skip94
+\RaggedRightParfillskip=\skip95
+\JustifyingParfillskip=\skip96
+\CenteringParindent=\skip97
+\RaggedLeftParindent=\skip98
+\RaggedRightParindent=\skip99
+\JustifyingParindent=\skip100
+) (/usr/share/texlive/texmf-dist/tex/latex/zref/zref.sty
+Package: zref 2022-04-07 v2.34 A new reference scheme for LaTeX (HO)
+ (/usr/share/texlive/texmf-dist/tex/latex/zref/zref-base.sty
+Package: zref-base 2022-04-07 v2.34 Module base for zref (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 767.
+Package zref Info: New property: default on input line 768.
+Package zref Info: New property: page on input line 769.
+)) (/usr/share/texlive/texmf-dist/tex/latex/zref/zref-lastpage.sty
+Package: zref-lastpage 2022-04-07 v2.34 Module lastpage for zref (HO)
+ (/usr/share/texlive/texmf-dist/tex/latex/zref/zref-abspage.sty
+Package: zref-abspage 2022-04-07 v2.34 Module abspage for zref (HO)
+ (/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\c@abspage=\count326
+Package zref Info: New property: abspage on input line 65.
+) (/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+Package zref Info: New property list: LastPage on input line 58.
+) (/usr/share/texlive/texmf-dist/tex/latex/zref/zref-user.sty
+Package: zref-user 2022-04-07 v2.34 Module user for zref (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/silence/silence.sty
+Package: silence 2012/07/02 v1.5b Selective filtering of warnings and error messages
+\sl@Save=\count327
+\sl@StateNumber=\count328
+\sl@MessageCount=\count329
+\sl@Casualties=\count330
+\sl@Filter=\toks53
+\sl@Message=\toks54
+\sl@UnexpandedMessage=\toks55
+\sl@Mess@ge=\toks56
+\sl@WarningCount=\count331
+\sl@WarningNumber=\count332
+\sl@WarningCasualties=\count333
+\sl@TempBOW=\toks57
+\sl@BankOfWarnings=\toks58
+LaTeX Info: Redefining \GenericWarning on input line 433.
+\sl@ErrorCount=\count334
+\sl@ErrorNumber=\count335
+\sl@ErrorCasualties=\count336
+\sl@TempBOE=\toks59
+\sl@BankOfErrors=\toks60
+LaTeX Info: Redefining \GenericError on input line 601.
+) (/usr/share/texlive/texmf-dist/tex/latex/datetime2/datetime2.sty
+Package: datetime2 2021/03/21 v1.5.7 (NLCT) date and time formats
+ (/usr/share/texlive/texmf-dist/tex/latex/tracklang/tracklang.sty
+Package: tracklang 2022/12/13 v1.6.1 (NLCT) Track Languages
+ (/usr/share/texlive/texmf-dist/tex/generic/tracklang/tracklang.tex)) (/usr/share/texlive/texmf-dist/tex/latex/datetime2-russian/datetime2-russian.ldf
+File: datetime2-russian.ldf 2018/12/07 v1.1
+ (/usr/share/texlive/texmf-dist/tex/latex/datetime2-russian/datetime2-russian-ascii.ldf
+File: datetime2-russian-ascii.ldf 2018/12/07 v1.1
+)) (/usr/share/texlive/texmf-dist/tex/latex/datetime2-english/datetime2-english.ldf
+File: datetime2-english.ldf 2019/10/21 v1.05 (NLCT)
+ (/usr/share/texlive/texmf-dist/tex/latex/datetime2-english/datetime2-english-base.ldf
+File: datetime2-english-base.ldf 2019/10/21 v1.05 (NLCT)
+))) (/usr/share/texlive/texmf-dist/tex/generic/witharrows/witharrows.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks61
+\pgfutil@tempdima=\dimen296
+\pgfutil@tempdimb=\dimen297
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box115
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks62
+\pgfkeys@temptoks=\toks63
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks64
+))
+\pgf@x=\dimen298
+\pgf@y=\dimen299
+\pgf@xa=\dimen300
+\pgf@ya=\dimen301
+\pgf@xb=\dimen302
+\pgf@yb=\dimen303
+\pgf@xc=\dimen304
+\pgf@yc=\dimen305
+\pgf@xd=\dimen306
+\pgf@yd=\dimen307
+\w@pgf@writea=\write3
+\r@pgf@reada=\read4
+\c@pgf@counta=\count337
+\c@pgf@countb=\count338
+\c@pgf@countc=\count339
+\c@pgf@countd=\count340
+\t@pgf@toka=\toks65
+\t@pgf@tokb=\toks66
+\t@pgf@tokc=\toks67
+\pgf@sys@id@count=\count341
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count342
+\pgfsyssoftpath@bigbuffer@items=\count343
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen308
+\pgfmath@count=\count344
+\pgfmath@box=\box116
+\pgfmath@toks=\toks68
+\pgfmath@stack@operand=\toks69
+\pgfmath@stack@operation=\toks70
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count345
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen309
+\pgf@picmaxx=\dimen310
+\pgf@picminy=\dimen311
+\pgf@picmaxy=\dimen312
+\pgf@pathminx=\dimen313
+\pgf@pathmaxx=\dimen314
+\pgf@pathminy=\dimen315
+\pgf@pathmaxy=\dimen316
+\pgf@xx=\dimen317
+\pgf@xy=\dimen318
+\pgf@yx=\dimen319
+\pgf@yy=\dimen320
+\pgf@zx=\dimen321
+\pgf@zy=\dimen322
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen323
+\pgf@path@lasty=\dimen324
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen325
+\pgf@shorten@start@additional=\dimen326
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box117
+\pgf@hbox=\box118
+\pgf@layerbox@main=\box119
+\pgf@picture@serial@count=\count346
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen327
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen328
+\pgf@pt@y=\dimen329
+\pgf@pt@temp=\dimen330
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen331
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen332
+\pgf@sys@shading@range@num=\count347
+\pgf@shadingcount=\count348
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box120
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box121
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen333
+\pgf@nodesepend=\dimen334
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen335
+\pgffor@skip=\dimen336
+\pgffor@stack=\toks71
+\pgffor@toks=\toks72
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count349
+\pgfplotmarksize=\dimen337
+)
+\tikz@lastx=\dimen338
+\tikz@lasty=\dimen339
+\tikz@lastxsaved=\dimen340
+\tikz@lastysaved=\dimen341
+\tikz@lastmovetox=\dimen342
+\tikz@lastmovetoy=\dimen343
+\tikzleveldistance=\dimen344
+\tikzsiblingdistance=\dimen345
+\tikz@figbox=\box122
+\tikz@figbox@bg=\box123
+\tikz@tempbox=\box124
+\tikz@tempbox@bg=\box125
+\tikztreelevel=\count350
+\tikznumberofchildren=\count351
+\tikznumberofcurrentchild=\count352
+\tikz@fig@count=\count353
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count354
+\pgfmatrixcurrentcolumn=\count355
+\pgf@matrix@numberofcolumns=\count356
+)
+\tikz@expandcount=\count357
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen346
+\pgfarrowlength=\dimen347
+\pgfarrowwidth=\dimen348
+\pgfarrowlinewidth=\dimen349
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybending.code.tex
+File: tikzlibrarybending.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulebending.code.tex
+File: pgfmodulebending.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulenonlineartransformations.code.tex
+File: pgfmodulenonlineartransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgftransformnonlinearflatness=\dimen350
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibrarycurvilinear.code.tex
+File: pgflibrarycurvilinear.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@curvilinear@time@a=\dimen351
+\pgf@curvilinear@length@a=\dimen352
+\pgf@curvilinear@length@b=\dimen353
+\pgf@curvilinear@length@c=\dimen354
+\pgf@curvilinear@length@d=\dimen355
+)
+\pgf@arrows@the@rigidity=\dimen356
+))
+Package: witharrows 2023/02/14 v2.8a Draws arrows for explanations on the right
+\g__witharrows_last_env_int=\count358
+\l__witharrows_pos_env_int=\count359
+\l__witharrows_pos_arrow_int=\count360
+\g__witharrows_arrow_int=\count361
+\g__witharrows_line_int=\count362
+\g__witharrows_col_int=\count363
+\g__witharrows_static_col_int=\count364
+\l__witharrows_nb_cols_int=\count365
+\l__witharrows_arrow_width_dim=\dimen357
+\l__witharrows_up_and_down_radius_dim=\dimen358
+\l__witharrows_xoffset_for_o_arrows_dim=\dimen359
+\l__witharrows_max_length_of_arrow_dim=\dimen360
+\l__witharrows_ygap_dim=\dimen361
+\l__witharrows_ystart_dim=\dimen362
+\l__witharrows_xoffset_dim=\dimen363
+\l__witharrows_interline_skip=\skip101
+\l__witharrows_start_adjust_dim=\dimen364
+\l__witharrows_end_adjust_dim=\dimen365
+\l__witharrows_mathindent_skip=\skip102
+) (/usr/share/texlive/texmf-dist/tex/latex/nicematrix/nicematrix.sty
+Package: nicematrix 2023/03/06 v6.16 Enhanced arrays with the help of PGF/TikZ
+\g__nicematrix_env_int=\count366
+\g__nicematrix_NiceMatrixBlock_int=\count367
+\l__nicematrix_note_in_caption_int=\count368
+\l__nicematrix_columns_width_dim=\dimen366
+\l__nicematrix_col_width_dim=\dimen367
+\g__nicematrix_row_total_int=\count369
+\g__nicematrix_col_total_int=\count370
+\g__nicematrix_last_row_node_int=\count371
+\l__nicematrix_key_nb_rows_int=\count372
+\g__nicematrix_blocks_wd_dim=\dimen368
+\g__nicematrix_blocks_ht_dim=\dimen369
+\g__nicematrix_blocks_dp_dim=\dimen370
+\l__nicematrix_width_dim=\dimen371
+\l__nicematrix_tabular_width_dim=\dimen372
+\l__nicematrix_rule_width_dim=\dimen373
+\l__nicematrix_old_iRow_int=\count373
+\l__nicematrix_old_jCol_int=\count374
+\g__nicematrix_total_X_weight_int=\count375
+\l__nicematrix_X_columns_dim=\dimen374
+\l__nicematrix_x_initial_dim=\dimen375
+\l__nicematrix_y_initial_dim=\dimen376
+\l__nicematrix_x_final_dim=\dimen377
+\l__nicematrix_y_final_dim=\dimen378
+\l__nicematrix_tmpc_dim=\dimen379
+\l__nicematrix_tmpd_dim=\dimen380
+\g__nicematrix_width_last_col_dim=\dimen381
+\g__nicematrix_width_first_col_dim=\dimen382
+\l__nicematrix_row_min_int=\count376
+\l__nicematrix_row_max_int=\count377
+\l__nicematrix_col_min_int=\count378
+\l__nicematrix_col_max_int=\count379
+\g__nicematrix_static_num_of_col_int=\count380
+\l__nicematrix_rounded_corners_dim=\dimen383
+\l__nicematrix_line_width_dim=\dimen384
+\g__nicematrix_block_box_int=\count381
+\l__nicematrix_submatrix_extra_height_dim=\dimen385
+\l__nicematrix_submatrix_left_xshift_dim=\dimen386
+\l__nicematrix_submatrix_right_xshift_dim=\dimen387
+\l__nicematrix_first_row_int=\count382
+\l__nicematrix_first_col_int=\count383
+\l__nicematrix_last_row_int=\count384
+\l__nicematrix_last_col_int=\count385
+\c@tabularnote=\count386
+\c@nicematrix_draft=\count387
+\l__nicematrix_cell_space_top_limit_dim=\dimen388
+\l__nicematrix_cell_space_bottom_limit_dim=\dimen389
+\l__nicematrix_xdots_inter_dim=\dimen390
+\l__nicematrix_xdots_shorten_start_dim=\dimen391
+\l__nicematrix_xdots_shorten_end_dim=\dimen392
+\l__nicematrix_xdots_radius_dim=\dimen393
+\l__nicematrix_notes_above_space_dim=\dimen394
+\l__nicematrix_left_margin_dim=\dimen395
+\l__nicematrix_right_margin_dim=\dimen396
+\l__nicematrix_extra_left_margin_dim=\dimen397
+\l__nicematrix_extra_right_margin_dim=\dimen398
+\c__nicematrix_max_l_dim=\dimen399
+\l__nicematrix_position_int=\count388
+\l__nicematrix_start_int=\count389
+\l__nicematrix_multiplicity_int=\count390
+\l__nicematrix_brace_yshift_dim=\dimen400
+) (/usr/share/texlive/texmf-dist/tex/latex/hwemoji/hwemoji.sty
+Package: hwemoji 2022/11/10 v1.0 Unicode emoji with sequence support
+ (/usr/share/texlive/texmf-dist/tex/latex/ifnextok/ifnextok.sty
+Package: ifnextok 2011/06/27 v0.3 test next token (UL)
+)
+   defining Unicode char U+1F004 (decimal 126980)
+   defining Unicode char U+1F0CF (decimal 127183)
+   defining Unicode char U+1F170 (decimal 127344)
+   defining Unicode char U+1F171 (decimal 127345)
+   defining Unicode char U+1F17E (decimal 127358)
+   defining Unicode char U+1F17F (decimal 127359)
+   defining Unicode char U+1F18E (decimal 127374)
+   defining Unicode char U+1F191 (decimal 127377)
+   defining Unicode char U+1F192 (decimal 127378)
+   defining Unicode char U+1F193 (decimal 127379)
+   defining Unicode char U+1F194 (decimal 127380)
+   defining Unicode char U+1F195 (decimal 127381)
+   defining Unicode char U+1F196 (decimal 127382)
+   defining Unicode char U+1F197 (decimal 127383)
+   defining Unicode char U+1F198 (decimal 127384)
+   defining Unicode char U+1F199 (decimal 127385)
+   defining Unicode char U+1F19A (decimal 127386)
+   defining Unicode char U+1F1E6 (decimal 127462)
+   defining Unicode char U+1F1E7 (decimal 127463)
+   defining Unicode char U+1F1E8 (decimal 127464)
+   defining Unicode char U+1F1E9 (decimal 127465)
+   defining Unicode char U+1F1EA (decimal 127466)
+   defining Unicode char U+1F1EB (decimal 127467)
+   defining Unicode char U+1F1EC (decimal 127468)
+   defining Unicode char U+1F1ED (decimal 127469)
+   defining Unicode char U+1F1EE (decimal 127470)
+   defining Unicode char U+1F1EF (decimal 127471)
+   defining Unicode char U+1F1F0 (decimal 127472)
+   defining Unicode char U+1F1F1 (decimal 127473)
+   defining Unicode char U+1F1F2 (decimal 127474)
+   defining Unicode char U+1F1F3 (decimal 127475)
+   defining Unicode char U+1F1F4 (decimal 127476)
+   defining Unicode char U+1F1F5 (decimal 127477)
+   defining Unicode char U+1F1F6 (decimal 127478)
+   defining Unicode char U+1F1F7 (decimal 127479)
+   defining Unicode char U+1F1F8 (decimal 127480)
+   defining Unicode char U+1F1F9 (decimal 127481)
+   defining Unicode char U+1F1FA (decimal 127482)
+   defining Unicode char U+1F1FB (decimal 127483)
+   defining Unicode char U+1F1FC (decimal 127484)
+   defining Unicode char U+1F1FD (decimal 127485)
+   defining Unicode char U+1F1FE (decimal 127486)
+   defining Unicode char U+1F1FF (decimal 127487)
+   defining Unicode char U+1F201 (decimal 127489)
+   defining Unicode char U+1F202 (decimal 127490)
+   defining Unicode char U+1F21A (decimal 127514)
+   defining Unicode char U+1F22F (decimal 127535)
+   defining Unicode char U+1F232 (decimal 127538)
+   defining Unicode char U+1F233 (decimal 127539)
+   defining Unicode char U+1F234 (decimal 127540)
+   defining Unicode char U+1F235 (decimal 127541)
+   defining Unicode char U+1F236 (decimal 127542)
+   defining Unicode char U+1F237 (decimal 127543)
+   defining Unicode char U+1F238 (decimal 127544)
+   defining Unicode char U+1F239 (decimal 127545)
+   defining Unicode char U+1F23A (decimal 127546)
+   defining Unicode char U+1F250 (decimal 127568)
+   defining Unicode char U+1F251 (decimal 127569)
+   defining Unicode char U+1F300 (decimal 127744)
+   defining Unicode char U+1F301 (decimal 127745)
+   defining Unicode char U+1F302 (decimal 127746)
+   defining Unicode char U+1F303 (decimal 127747)
+   defining Unicode char U+1F304 (decimal 127748)
+   defining Unicode char U+1F305 (decimal 127749)
+   defining Unicode char U+1F306 (decimal 127750)
+   defining Unicode char U+1F307 (decimal 127751)
+   defining Unicode char U+1F308 (decimal 127752)
+   defining Unicode char U+1F309 (decimal 127753)
+   defining Unicode char U+1F30A (decimal 127754)
+   defining Unicode char U+1F30B (decimal 127755)
+   defining Unicode char U+1F30C (decimal 127756)
+   defining Unicode char U+1F30D (decimal 127757)
+   defining Unicode char U+1F30E (decimal 127758)
+   defining Unicode char U+1F30F (decimal 127759)
+   defining Unicode char U+1F310 (decimal 127760)
+   defining Unicode char U+1F311 (decimal 127761)
+   defining Unicode char U+1F312 (decimal 127762)
+   defining Unicode char U+1F313 (decimal 127763)
+   defining Unicode char U+1F314 (decimal 127764)
+   defining Unicode char U+1F315 (decimal 127765)
+   defining Unicode char U+1F316 (decimal 127766)
+   defining Unicode char U+1F317 (decimal 127767)
+   defining Unicode char U+1F318 (decimal 127768)
+   defining Unicode char U+1F319 (decimal 127769)
+   defining Unicode char U+1F31A (decimal 127770)
+   defining Unicode char U+1F31B (decimal 127771)
+   defining Unicode char U+1F31C (decimal 127772)
+   defining Unicode char U+1F31D (decimal 127773)
+   defining Unicode char U+1F31E (decimal 127774)
+   defining Unicode char U+1F31F (decimal 127775)
+   defining Unicode char U+1F320 (decimal 127776)
+   defining Unicode char U+1F321 (decimal 127777)
+   defining Unicode char U+1F324 (decimal 127780)
+   defining Unicode char U+1F325 (decimal 127781)
+   defining Unicode char U+1F326 (decimal 127782)
+   defining Unicode char U+1F327 (decimal 127783)
+   defining Unicode char U+1F328 (decimal 127784)
+   defining Unicode char U+1F329 (decimal 127785)
+   defining Unicode char U+1F32A (decimal 127786)
+   defining Unicode char U+1F32B (decimal 127787)
+   defining Unicode char U+1F32C (decimal 127788)
+   defining Unicode char U+1F32D (decimal 127789)
+   defining Unicode char U+1F32E (decimal 127790)
+   defining Unicode char U+1F32F (decimal 127791)
+   defining Unicode char U+1F330 (decimal 127792)
+   defining Unicode char U+1F331 (decimal 127793)
+   defining Unicode char U+1F332 (decimal 127794)
+   defining Unicode char U+1F333 (decimal 127795)
+   defining Unicode char U+1F334 (decimal 127796)
+   defining Unicode char U+1F335 (decimal 127797)
+   defining Unicode char U+1F336 (decimal 127798)
+   defining Unicode char U+1F337 (decimal 127799)
+   defining Unicode char U+1F338 (decimal 127800)
+   defining Unicode char U+1F339 (decimal 127801)
+   defining Unicode char U+1F33A (decimal 127802)
+   defining Unicode char U+1F33B (decimal 127803)
+   defining Unicode char U+1F33C (decimal 127804)
+   defining Unicode char U+1F33D (decimal 127805)
+   defining Unicode char U+1F33E (decimal 127806)
+   defining Unicode char U+1F33F (decimal 127807)
+   defining Unicode char U+1F340 (decimal 127808)
+   defining Unicode char U+1F341 (decimal 127809)
+   defining Unicode char U+1F342 (decimal 127810)
+   defining Unicode char U+1F343 (decimal 127811)
+   defining Unicode char U+1F344 (decimal 127812)
+   defining Unicode char U+1F345 (decimal 127813)
+   defining Unicode char U+1F346 (decimal 127814)
+   defining Unicode char U+1F347 (decimal 127815)
+   defining Unicode char U+1F348 (decimal 127816)
+   defining Unicode char U+1F349 (decimal 127817)
+   defining Unicode char U+1F34A (decimal 127818)
+   defining Unicode char U+1F34B (decimal 127819)
+   defining Unicode char U+1F34C (decimal 127820)
+   defining Unicode char U+1F34D (decimal 127821)
+   defining Unicode char U+1F34E (decimal 127822)
+   defining Unicode char U+1F34F (decimal 127823)
+   defining Unicode char U+1F350 (decimal 127824)
+   defining Unicode char U+1F351 (decimal 127825)
+   defining Unicode char U+1F352 (decimal 127826)
+   defining Unicode char U+1F353 (decimal 127827)
+   defining Unicode char U+1F354 (decimal 127828)
+   defining Unicode char U+1F355 (decimal 127829)
+   defining Unicode char U+1F356 (decimal 127830)
+   defining Unicode char U+1F357 (decimal 127831)
+   defining Unicode char U+1F358 (decimal 127832)
+   defining Unicode char U+1F359 (decimal 127833)
+   defining Unicode char U+1F35A (decimal 127834)
+   defining Unicode char U+1F35B (decimal 127835)
+   defining Unicode char U+1F35C (decimal 127836)
+   defining Unicode char U+1F35D (decimal 127837)
+   defining Unicode char U+1F35E (decimal 127838)
+   defining Unicode char U+1F35F (decimal 127839)
+   defining Unicode char U+1F360 (decimal 127840)
+   defining Unicode char U+1F361 (decimal 127841)
+   defining Unicode char U+1F362 (decimal 127842)
+   defining Unicode char U+1F363 (decimal 127843)
+   defining Unicode char U+1F364 (decimal 127844)
+   defining Unicode char U+1F365 (decimal 127845)
+   defining Unicode char U+1F366 (decimal 127846)
+   defining Unicode char U+1F367 (decimal 127847)
+   defining Unicode char U+1F368 (decimal 127848)
+   defining Unicode char U+1F369 (decimal 127849)
+   defining Unicode char U+1F36A (decimal 127850)
+   defining Unicode char U+1F36B (decimal 127851)
+   defining Unicode char U+1F36C (decimal 127852)
+   defining Unicode char U+1F36D (decimal 127853)
+   defining Unicode char U+1F36E (decimal 127854)
+   defining Unicode char U+1F36F (decimal 127855)
+   defining Unicode char U+1F370 (decimal 127856)
+   defining Unicode char U+1F371 (decimal 127857)
+   defining Unicode char U+1F372 (decimal 127858)
+   defining Unicode char U+1F373 (decimal 127859)
+   defining Unicode char U+1F374 (decimal 127860)
+   defining Unicode char U+1F375 (decimal 127861)
+   defining Unicode char U+1F376 (decimal 127862)
+   defining Unicode char U+1F377 (decimal 127863)
+   defining Unicode char U+1F378 (decimal 127864)
+   defining Unicode char U+1F379 (decimal 127865)
+   defining Unicode char U+1F37A (decimal 127866)
+   defining Unicode char U+1F37B (decimal 127867)
+   defining Unicode char U+1F37C (decimal 127868)
+   defining Unicode char U+1F37D (decimal 127869)
+   defining Unicode char U+1F37E (decimal 127870)
+   defining Unicode char U+1F37F (decimal 127871)
+   defining Unicode char U+1F380 (decimal 127872)
+   defining Unicode char U+1F381 (decimal 127873)
+   defining Unicode char U+1F382 (decimal 127874)
+   defining Unicode char U+1F383 (decimal 127875)
+   defining Unicode char U+1F384 (decimal 127876)
+   defining Unicode char U+1F385 (decimal 127877)
+   defining Unicode char U+1F386 (decimal 127878)
+   defining Unicode char U+1F387 (decimal 127879)
+   defining Unicode char U+1F388 (decimal 127880)
+   defining Unicode char U+1F389 (decimal 127881)
+   defining Unicode char U+1F38A (decimal 127882)
+   defining Unicode char U+1F38B (decimal 127883)
+   defining Unicode char U+1F38C (decimal 127884)
+   defining Unicode char U+1F38D (decimal 127885)
+   defining Unicode char U+1F38E (decimal 127886)
+   defining Unicode char U+1F38F (decimal 127887)
+   defining Unicode char U+1F390 (decimal 127888)
+   defining Unicode char U+1F391 (decimal 127889)
+   defining Unicode char U+1F392 (decimal 127890)
+   defining Unicode char U+1F393 (decimal 127891)
+   defining Unicode char U+1F396 (decimal 127894)
+   defining Unicode char U+1F397 (decimal 127895)
+   defining Unicode char U+1F399 (decimal 127897)
+   defining Unicode char U+1F39A (decimal 127898)
+   defining Unicode char U+1F39B (decimal 127899)
+   defining Unicode char U+1F39E (decimal 127902)
+   defining Unicode char U+1F39F (decimal 127903)
+   defining Unicode char U+1F3A0 (decimal 127904)
+   defining Unicode char U+1F3A1 (decimal 127905)
+   defining Unicode char U+1F3A2 (decimal 127906)
+   defining Unicode char U+1F3A3 (decimal 127907)
+   defining Unicode char U+1F3A4 (decimal 127908)
+   defining Unicode char U+1F3A5 (decimal 127909)
+   defining Unicode char U+1F3A6 (decimal 127910)
+   defining Unicode char U+1F3A7 (decimal 127911)
+   defining Unicode char U+1F3A8 (decimal 127912)
+   defining Unicode char U+1F3A9 (decimal 127913)
+   defining Unicode char U+1F3AA (decimal 127914)
+   defining Unicode char U+1F3AB (decimal 127915)
+   defining Unicode char U+1F3AC (decimal 127916)
+   defining Unicode char U+1F3AD (decimal 127917)
+   defining Unicode char U+1F3AE (decimal 127918)
+   defining Unicode char U+1F3AF (decimal 127919)
+   defining Unicode char U+1F3B0 (decimal 127920)
+   defining Unicode char U+1F3B1 (decimal 127921)
+   defining Unicode char U+1F3B2 (decimal 127922)
+   defining Unicode char U+1F3B3 (decimal 127923)
+   defining Unicode char U+1F3B4 (decimal 127924)
+   defining Unicode char U+1F3B5 (decimal 127925)
+   defining Unicode char U+1F3B6 (decimal 127926)
+   defining Unicode char U+1F3B7 (decimal 127927)
+   defining Unicode char U+1F3B8 (decimal 127928)
+   defining Unicode char U+1F3B9 (decimal 127929)
+   defining Unicode char U+1F3BA (decimal 127930)
+   defining Unicode char U+1F3BB (decimal 127931)
+   defining Unicode char U+1F3BC (decimal 127932)
+   defining Unicode char U+1F3BD (decimal 127933)
+   defining Unicode char U+1F3BE (decimal 127934)
+   defining Unicode char U+1F3BF (decimal 127935)
+   defining Unicode char U+1F3C0 (decimal 127936)
+   defining Unicode char U+1F3C1 (decimal 127937)
+   defining Unicode char U+1F3C2 (decimal 127938)
+   defining Unicode char U+1F3C3 (decimal 127939)
+   defining Unicode char U+1F3C4 (decimal 127940)
+   defining Unicode char U+1F3C5 (decimal 127941)
+   defining Unicode char U+1F3C6 (decimal 127942)
+   defining Unicode char U+1F3C7 (decimal 127943)
+   defining Unicode char U+1F3C8 (decimal 127944)
+   defining Unicode char U+1F3C9 (decimal 127945)
+   defining Unicode char U+1F3CA (decimal 127946)
+   defining Unicode char U+1F3CB (decimal 127947)
+   defining Unicode char U+1F3CC (decimal 127948)
+   defining Unicode char U+1F3CD (decimal 127949)
+   defining Unicode char U+1F3CE (decimal 127950)
+   defining Unicode char U+1F3CF (decimal 127951)
+   defining Unicode char U+1F3D0 (decimal 127952)
+   defining Unicode char U+1F3D1 (decimal 127953)
+   defining Unicode char U+1F3D2 (decimal 127954)
+   defining Unicode char U+1F3D3 (decimal 127955)
+   defining Unicode char U+1F3D4 (decimal 127956)
+   defining Unicode char U+1F3D5 (decimal 127957)
+   defining Unicode char U+1F3D6 (decimal 127958)
+   defining Unicode char U+1F3D7 (decimal 127959)
+   defining Unicode char U+1F3D8 (decimal 127960)
+   defining Unicode char U+1F3D9 (decimal 127961)
+   defining Unicode char U+1F3DA (decimal 127962)
+   defining Unicode char U+1F3DB (decimal 127963)
+   defining Unicode char U+1F3DC (decimal 127964)
+   defining Unicode char U+1F3DD (decimal 127965)
+   defining Unicode char U+1F3DE (decimal 127966)
+   defining Unicode char U+1F3DF (decimal 127967)
+   defining Unicode char U+1F3E0 (decimal 127968)
+   defining Unicode char U+1F3E1 (decimal 127969)
+   defining Unicode char U+1F3E2 (decimal 127970)
+   defining Unicode char U+1F3E3 (decimal 127971)
+   defining Unicode char U+1F3E4 (decimal 127972)
+   defining Unicode char U+1F3E5 (decimal 127973)
+   defining Unicode char U+1F3E6 (decimal 127974)
+   defining Unicode char U+1F3E7 (decimal 127975)
+   defining Unicode char U+1F3E8 (decimal 127976)
+   defining Unicode char U+1F3E9 (decimal 127977)
+   defining Unicode char U+1F3EA (decimal 127978)
+   defining Unicode char U+1F3EB (decimal 127979)
+   defining Unicode char U+1F3EC (decimal 127980)
+   defining Unicode char U+1F3ED (decimal 127981)
+   defining Unicode char U+1F3EE (decimal 127982)
+   defining Unicode char U+1F3EF (decimal 127983)
+   defining Unicode char U+1F3F0 (decimal 127984)
+   defining Unicode char U+1F3F3 (decimal 127987)
+   defining Unicode char U+1F3F4 (decimal 127988)
+   defining Unicode char U+1F3F5 (decimal 127989)
+   defining Unicode char U+1F3F7 (decimal 127991)
+   defining Unicode char U+1F3F8 (decimal 127992)
+   defining Unicode char U+1F3F9 (decimal 127993)
+   defining Unicode char U+1F3FA (decimal 127994)
+   defining Unicode char U+1F3FB (decimal 127995)
+   defining Unicode char U+1F3FC (decimal 127996)
+   defining Unicode char U+1F3FD (decimal 127997)
+   defining Unicode char U+1F3FE (decimal 127998)
+   defining Unicode char U+1F3FF (decimal 127999)
+   defining Unicode char U+1F400 (decimal 128000)
+   defining Unicode char U+1F401 (decimal 128001)
+   defining Unicode char U+1F402 (decimal 128002)
+   defining Unicode char U+1F403 (decimal 128003)
+   defining Unicode char U+1F404 (decimal 128004)
+   defining Unicode char U+1F405 (decimal 128005)
+   defining Unicode char U+1F406 (decimal 128006)
+   defining Unicode char U+1F407 (decimal 128007)
+   defining Unicode char U+1F408 (decimal 128008)
+   defining Unicode char U+1F409 (decimal 128009)
+   defining Unicode char U+1F40A (decimal 128010)
+   defining Unicode char U+1F40B (decimal 128011)
+   defining Unicode char U+1F40C (decimal 128012)
+   defining Unicode char U+1F40D (decimal 128013)
+   defining Unicode char U+1F40E (decimal 128014)
+   defining Unicode char U+1F40F (decimal 128015)
+   defining Unicode char U+1F410 (decimal 128016)
+   defining Unicode char U+1F411 (decimal 128017)
+   defining Unicode char U+1F412 (decimal 128018)
+   defining Unicode char U+1F413 (decimal 128019)
+   defining Unicode char U+1F414 (decimal 128020)
+   defining Unicode char U+1F415 (decimal 128021)
+   defining Unicode char U+1F416 (decimal 128022)
+   defining Unicode char U+1F417 (decimal 128023)
+   defining Unicode char U+1F418 (decimal 128024)
+   defining Unicode char U+1F419 (decimal 128025)
+   defining Unicode char U+1F41A (decimal 128026)
+   defining Unicode char U+1F41B (decimal 128027)
+   defining Unicode char U+1F41C (decimal 128028)
+   defining Unicode char U+1F41D (decimal 128029)
+   defining Unicode char U+1F41E (decimal 128030)
+   defining Unicode char U+1F41F (decimal 128031)
+   defining Unicode char U+1F420 (decimal 128032)
+   defining Unicode char U+1F421 (decimal 128033)
+   defining Unicode char U+1F422 (decimal 128034)
+   defining Unicode char U+1F423 (decimal 128035)
+   defining Unicode char U+1F424 (decimal 128036)
+   defining Unicode char U+1F425 (decimal 128037)
+   defining Unicode char U+1F426 (decimal 128038)
+   defining Unicode char U+1F427 (decimal 128039)
+   defining Unicode char U+1F428 (decimal 128040)
+   defining Unicode char U+1F429 (decimal 128041)
+   defining Unicode char U+1F42A (decimal 128042)
+   defining Unicode char U+1F42B (decimal 128043)
+   defining Unicode char U+1F42C (decimal 128044)
+   defining Unicode char U+1F42D (decimal 128045)
+   defining Unicode char U+1F42E (decimal 128046)
+   defining Unicode char U+1F42F (decimal 128047)
+   defining Unicode char U+1F430 (decimal 128048)
+   defining Unicode char U+1F431 (decimal 128049)
+   defining Unicode char U+1F432 (decimal 128050)
+   defining Unicode char U+1F433 (decimal 128051)
+   defining Unicode char U+1F434 (decimal 128052)
+   defining Unicode char U+1F435 (decimal 128053)
+   defining Unicode char U+1F436 (decimal 128054)
+   defining Unicode char U+1F437 (decimal 128055)
+   defining Unicode char U+1F438 (decimal 128056)
+   defining Unicode char U+1F439 (decimal 128057)
+   defining Unicode char U+1F43A (decimal 128058)
+   defining Unicode char U+1F43B (decimal 128059)
+   defining Unicode char U+1F43C (decimal 128060)
+   defining Unicode char U+1F43D (decimal 128061)
+   defining Unicode char U+1F43E (decimal 128062)
+   defining Unicode char U+1F43F (decimal 128063)
+   defining Unicode char U+1F440 (decimal 128064)
+   defining Unicode char U+1F441 (decimal 128065)
+   defining Unicode char U+1F442 (decimal 128066)
+   defining Unicode char U+1F443 (decimal 128067)
+   defining Unicode char U+1F444 (decimal 128068)
+   defining Unicode char U+1F445 (decimal 128069)
+   defining Unicode char U+1F446 (decimal 128070)
+   defining Unicode char U+1F447 (decimal 128071)
+   defining Unicode char U+1F448 (decimal 128072)
+   defining Unicode char U+1F449 (decimal 128073)
+   defining Unicode char U+1F44A (decimal 128074)
+   defining Unicode char U+1F44B (decimal 128075)
+   defining Unicode char U+1F44C (decimal 128076)
+   defining Unicode char U+1F44D (decimal 128077)
+   defining Unicode char U+1F44E (decimal 128078)
+   defining Unicode char U+1F44F (decimal 128079)
+   defining Unicode char U+1F450 (decimal 128080)
+   defining Unicode char U+1F451 (decimal 128081)
+   defining Unicode char U+1F452 (decimal 128082)
+   defining Unicode char U+1F453 (decimal 128083)
+   defining Unicode char U+1F454 (decimal 128084)
+   defining Unicode char U+1F455 (decimal 128085)
+   defining Unicode char U+1F456 (decimal 128086)
+   defining Unicode char U+1F457 (decimal 128087)
+   defining Unicode char U+1F458 (decimal 128088)
+   defining Unicode char U+1F459 (decimal 128089)
+   defining Unicode char U+1F45A (decimal 128090)
+   defining Unicode char U+1F45B (decimal 128091)
+   defining Unicode char U+1F45C (decimal 128092)
+   defining Unicode char U+1F45D (decimal 128093)
+   defining Unicode char U+1F45E (decimal 128094)
+   defining Unicode char U+1F45F (decimal 128095)
+   defining Unicode char U+1F460 (decimal 128096)
+   defining Unicode char U+1F461 (decimal 128097)
+   defining Unicode char U+1F462 (decimal 128098)
+   defining Unicode char U+1F463 (decimal 128099)
+   defining Unicode char U+1F464 (decimal 128100)
+   defining Unicode char U+1F465 (decimal 128101)
+   defining Unicode char U+1F466 (decimal 128102)
+   defining Unicode char U+1F467 (decimal 128103)
+   defining Unicode char U+1F468 (decimal 128104)
+   defining Unicode char U+1F469 (decimal 128105)
+   defining Unicode char U+1F46A (decimal 128106)
+   defining Unicode char U+1F46B (decimal 128107)
+   defining Unicode char U+1F46C (decimal 128108)
+   defining Unicode char U+1F46D (decimal 128109)
+   defining Unicode char U+1F46E (decimal 128110)
+   defining Unicode char U+1F46F (decimal 128111)
+   defining Unicode char U+1F470 (decimal 128112)
+   defining Unicode char U+1F471 (decimal 128113)
+   defining Unicode char U+1F472 (decimal 128114)
+   defining Unicode char U+1F473 (decimal 128115)
+   defining Unicode char U+1F474 (decimal 128116)
+   defining Unicode char U+1F475 (decimal 128117)
+   defining Unicode char U+1F476 (decimal 128118)
+   defining Unicode char U+1F477 (decimal 128119)
+   defining Unicode char U+1F478 (decimal 128120)
+   defining Unicode char U+1F479 (decimal 128121)
+   defining Unicode char U+1F47A (decimal 128122)
+   defining Unicode char U+1F47B (decimal 128123)
+   defining Unicode char U+1F47C (decimal 128124)
+   defining Unicode char U+1F47D (decimal 128125)
+   defining Unicode char U+1F47E (decimal 128126)
+   defining Unicode char U+1F47F (decimal 128127)
+   defining Unicode char U+1F480 (decimal 128128)
+   defining Unicode char U+1F481 (decimal 128129)
+   defining Unicode char U+1F482 (decimal 128130)
+   defining Unicode char U+1F483 (decimal 128131)
+   defining Unicode char U+1F484 (decimal 128132)
+   defining Unicode char U+1F485 (decimal 128133)
+   defining Unicode char U+1F486 (decimal 128134)
+   defining Unicode char U+1F487 (decimal 128135)
+   defining Unicode char U+1F488 (decimal 128136)
+   defining Unicode char U+1F489 (decimal 128137)
+   defining Unicode char U+1F48A (decimal 128138)
+   defining Unicode char U+1F48B (decimal 128139)
+   defining Unicode char U+1F48C (decimal 128140)
+   defining Unicode char U+1F48D (decimal 128141)
+   defining Unicode char U+1F48E (decimal 128142)
+   defining Unicode char U+1F48F (decimal 128143)
+   defining Unicode char U+1F490 (decimal 128144)
+   defining Unicode char U+1F491 (decimal 128145)
+   defining Unicode char U+1F492 (decimal 128146)
+   defining Unicode char U+1F493 (decimal 128147)
+   defining Unicode char U+1F494 (decimal 128148)
+   defining Unicode char U+1F495 (decimal 128149)
+   defining Unicode char U+1F496 (decimal 128150)
+   defining Unicode char U+1F497 (decimal 128151)
+   defining Unicode char U+1F498 (decimal 128152)
+   defining Unicode char U+1F499 (decimal 128153)
+   defining Unicode char U+1F49A (decimal 128154)
+   defining Unicode char U+1F49B (decimal 128155)
+   defining Unicode char U+1F49C (decimal 128156)
+   defining Unicode char U+1F49D (decimal 128157)
+   defining Unicode char U+1F49E (decimal 128158)
+   defining Unicode char U+1F49F (decimal 128159)
+   defining Unicode char U+1F4A0 (decimal 128160)
+   defining Unicode char U+1F4A1 (decimal 128161)
+   defining Unicode char U+1F4A2 (decimal 128162)
+   defining Unicode char U+1F4A3 (decimal 128163)
+   defining Unicode char U+1F4A4 (decimal 128164)
+   defining Unicode char U+1F4A5 (decimal 128165)
+   defining Unicode char U+1F4A6 (decimal 128166)
+   defining Unicode char U+1F4A7 (decimal 128167)
+   defining Unicode char U+1F4A8 (decimal 128168)
+   defining Unicode char U+1F4A9 (decimal 128169)
+   defining Unicode char U+1F4AA (decimal 128170)
+   defining Unicode char U+1F4AB (decimal 128171)
+   defining Unicode char U+1F4AC (decimal 128172)
+   defining Unicode char U+1F4AD (decimal 128173)
+   defining Unicode char U+1F4AE (decimal 128174)
+   defining Unicode char U+1F4AF (decimal 128175)
+   defining Unicode char U+1F4B0 (decimal 128176)
+   defining Unicode char U+1F4B1 (decimal 128177)
+   defining Unicode char U+1F4B2 (decimal 128178)
+   defining Unicode char U+1F4B3 (decimal 128179)
+   defining Unicode char U+1F4B4 (decimal 128180)
+   defining Unicode char U+1F4B5 (decimal 128181)
+   defining Unicode char U+1F4B6 (decimal 128182)
+   defining Unicode char U+1F4B7 (decimal 128183)
+   defining Unicode char U+1F4B8 (decimal 128184)
+   defining Unicode char U+1F4B9 (decimal 128185)
+   defining Unicode char U+1F4BA (decimal 128186)
+   defining Unicode char U+1F4BB (decimal 128187)
+   defining Unicode char U+1F4BC (decimal 128188)
+   defining Unicode char U+1F4BD (decimal 128189)
+   defining Unicode char U+1F4BE (decimal 128190)
+   defining Unicode char U+1F4BF (decimal 128191)
+   defining Unicode char U+1F4C0 (decimal 128192)
+   defining Unicode char U+1F4C1 (decimal 128193)
+   defining Unicode char U+1F4C2 (decimal 128194)
+   defining Unicode char U+1F4C3 (decimal 128195)
+   defining Unicode char U+1F4C4 (decimal 128196)
+   defining Unicode char U+1F4C5 (decimal 128197)
+   defining Unicode char U+1F4C6 (decimal 128198)
+   defining Unicode char U+1F4C7 (decimal 128199)
+   defining Unicode char U+1F4C8 (decimal 128200)
+   defining Unicode char U+1F4C9 (decimal 128201)
+   defining Unicode char U+1F4CA (decimal 128202)
+   defining Unicode char U+1F4CB (decimal 128203)
+   defining Unicode char U+1F4CC (decimal 128204)
+   defining Unicode char U+1F4CD (decimal 128205)
+   defining Unicode char U+1F4CE (decimal 128206)
+   defining Unicode char U+1F4CF (decimal 128207)
+   defining Unicode char U+1F4D0 (decimal 128208)
+   defining Unicode char U+1F4D1 (decimal 128209)
+   defining Unicode char U+1F4D2 (decimal 128210)
+   defining Unicode char U+1F4D3 (decimal 128211)
+   defining Unicode char U+1F4D4 (decimal 128212)
+   defining Unicode char U+1F4D5 (decimal 128213)
+   defining Unicode char U+1F4D6 (decimal 128214)
+   defining Unicode char U+1F4D7 (decimal 128215)
+   defining Unicode char U+1F4D8 (decimal 128216)
+   defining Unicode char U+1F4D9 (decimal 128217)
+   defining Unicode char U+1F4DA (decimal 128218)
+   defining Unicode char U+1F4DB (decimal 128219)
+   defining Unicode char U+1F4DC (decimal 128220)
+   defining Unicode char U+1F4DD (decimal 128221)
+   defining Unicode char U+1F4DE (decimal 128222)
+   defining Unicode char U+1F4DF (decimal 128223)
+   defining Unicode char U+1F4E0 (decimal 128224)
+   defining Unicode char U+1F4E1 (decimal 128225)
+   defining Unicode char U+1F4E2 (decimal 128226)
+   defining Unicode char U+1F4E3 (decimal 128227)
+   defining Unicode char U+1F4E4 (decimal 128228)
+   defining Unicode char U+1F4E5 (decimal 128229)
+   defining Unicode char U+1F4E6 (decimal 128230)
+   defining Unicode char U+1F4E7 (decimal 128231)
+   defining Unicode char U+1F4E8 (decimal 128232)
+   defining Unicode char U+1F4E9 (decimal 128233)
+   defining Unicode char U+1F4EA (decimal 128234)
+   defining Unicode char U+1F4EB (decimal 128235)
+   defining Unicode char U+1F4EC (decimal 128236)
+   defining Unicode char U+1F4ED (decimal 128237)
+   defining Unicode char U+1F4EE (decimal 128238)
+   defining Unicode char U+1F4EF (decimal 128239)
+   defining Unicode char U+1F4F0 (decimal 128240)
+   defining Unicode char U+1F4F1 (decimal 128241)
+   defining Unicode char U+1F4F2 (decimal 128242)
+   defining Unicode char U+1F4F3 (decimal 128243)
+   defining Unicode char U+1F4F4 (decimal 128244)
+   defining Unicode char U+1F4F5 (decimal 128245)
+   defining Unicode char U+1F4F6 (decimal 128246)
+   defining Unicode char U+1F4F7 (decimal 128247)
+   defining Unicode char U+1F4F8 (decimal 128248)
+   defining Unicode char U+1F4F9 (decimal 128249)
+   defining Unicode char U+1F4FA (decimal 128250)
+   defining Unicode char U+1F4FB (decimal 128251)
+   defining Unicode char U+1F4FC (decimal 128252)
+   defining Unicode char U+1F4FD (decimal 128253)
+   defining Unicode char U+1F4FF (decimal 128255)
+   defining Unicode char U+1F500 (decimal 128256)
+   defining Unicode char U+1F501 (decimal 128257)
+   defining Unicode char U+1F502 (decimal 128258)
+   defining Unicode char U+1F503 (decimal 128259)
+   defining Unicode char U+1F504 (decimal 128260)
+   defining Unicode char U+1F505 (decimal 128261)
+   defining Unicode char U+1F506 (decimal 128262)
+   defining Unicode char U+1F507 (decimal 128263)
+   defining Unicode char U+1F508 (decimal 128264)
+   defining Unicode char U+1F509 (decimal 128265)
+   defining Unicode char U+1F50A (decimal 128266)
+   defining Unicode char U+1F50B (decimal 128267)
+   defining Unicode char U+1F50C (decimal 128268)
+   defining Unicode char U+1F50D (decimal 128269)
+   defining Unicode char U+1F50E (decimal 128270)
+   defining Unicode char U+1F50F (decimal 128271)
+   defining Unicode char U+1F510 (decimal 128272)
+   defining Unicode char U+1F511 (decimal 128273)
+   defining Unicode char U+1F512 (decimal 128274)
+   defining Unicode char U+1F513 (decimal 128275)
+   defining Unicode char U+1F514 (decimal 128276)
+   defining Unicode char U+1F515 (decimal 128277)
+   defining Unicode char U+1F516 (decimal 128278)
+   defining Unicode char U+1F517 (decimal 128279)
+   defining Unicode char U+1F518 (decimal 128280)
+   defining Unicode char U+1F519 (decimal 128281)
+   defining Unicode char U+1F51A (decimal 128282)
+   defining Unicode char U+1F51B (decimal 128283)
+   defining Unicode char U+1F51C (decimal 128284)
+   defining Unicode char U+1F51D (decimal 128285)
+   defining Unicode char U+1F51E (decimal 128286)
+   defining Unicode char U+1F51F (decimal 128287)
+   defining Unicode char U+1F520 (decimal 128288)
+   defining Unicode char U+1F521 (decimal 128289)
+   defining Unicode char U+1F522 (decimal 128290)
+   defining Unicode char U+1F523 (decimal 128291)
+   defining Unicode char U+1F524 (decimal 128292)
+   defining Unicode char U+1F525 (decimal 128293)
+   defining Unicode char U+1F526 (decimal 128294)
+   defining Unicode char U+1F527 (decimal 128295)
+   defining Unicode char U+1F528 (decimal 128296)
+   defining Unicode char U+1F529 (decimal 128297)
+   defining Unicode char U+1F52A (decimal 128298)
+   defining Unicode char U+1F52B (decimal 128299)
+   defining Unicode char U+1F52C (decimal 128300)
+   defining Unicode char U+1F52D (decimal 128301)
+   defining Unicode char U+1F52E (decimal 128302)
+   defining Unicode char U+1F52F (decimal 128303)
+   defining Unicode char U+1F530 (decimal 128304)
+   defining Unicode char U+1F531 (decimal 128305)
+   defining Unicode char U+1F532 (decimal 128306)
+   defining Unicode char U+1F533 (decimal 128307)
+   defining Unicode char U+1F534 (decimal 128308)
+   defining Unicode char U+1F535 (decimal 128309)
+   defining Unicode char U+1F536 (decimal 128310)
+   defining Unicode char U+1F537 (decimal 128311)
+   defining Unicode char U+1F538 (decimal 128312)
+   defining Unicode char U+1F539 (decimal 128313)
+   defining Unicode char U+1F53A (decimal 128314)
+   defining Unicode char U+1F53B (decimal 128315)
+   defining Unicode char U+1F53C (decimal 128316)
+   defining Unicode char U+1F53D (decimal 128317)
+   defining Unicode char U+1F549 (decimal 128329)
+   defining Unicode char U+1F54A (decimal 128330)
+   defining Unicode char U+1F54B (decimal 128331)
+   defining Unicode char U+1F54C (decimal 128332)
+   defining Unicode char U+1F54D (decimal 128333)
+   defining Unicode char U+1F54E (decimal 128334)
+   defining Unicode char U+1F550 (decimal 128336)
+   defining Unicode char U+1F551 (decimal 128337)
+   defining Unicode char U+1F552 (decimal 128338)
+   defining Unicode char U+1F553 (decimal 128339)
+   defining Unicode char U+1F554 (decimal 128340)
+   defining Unicode char U+1F555 (decimal 128341)
+   defining Unicode char U+1F556 (decimal 128342)
+   defining Unicode char U+1F557 (decimal 128343)
+   defining Unicode char U+1F558 (decimal 128344)
+   defining Unicode char U+1F559 (decimal 128345)
+   defining Unicode char U+1F55A (decimal 128346)
+   defining Unicode char U+1F55B (decimal 128347)
+   defining Unicode char U+1F55C (decimal 128348)
+   defining Unicode char U+1F55D (decimal 128349)
+   defining Unicode char U+1F55E (decimal 128350)
+   defining Unicode char U+1F55F (decimal 128351)
+   defining Unicode char U+1F560 (decimal 128352)
+   defining Unicode char U+1F561 (decimal 128353)
+   defining Unicode char U+1F562 (decimal 128354)
+   defining Unicode char U+1F563 (decimal 128355)
+   defining Unicode char U+1F564 (decimal 128356)
+   defining Unicode char U+1F565 (decimal 128357)
+   defining Unicode char U+1F566 (decimal 128358)
+   defining Unicode char U+1F567 (decimal 128359)
+   defining Unicode char U+1F56F (decimal 128367)
+   defining Unicode char U+1F570 (decimal 128368)
+   defining Unicode char U+1F573 (decimal 128371)
+   defining Unicode char U+1F574 (decimal 128372)
+   defining Unicode char U+1F575 (decimal 128373)
+   defining Unicode char U+1F576 (decimal 128374)
+   defining Unicode char U+1F577 (decimal 128375)
+   defining Unicode char U+1F578 (decimal 128376)
+   defining Unicode char U+1F579 (decimal 128377)
+   defining Unicode char U+1F57A (decimal 128378)
+   defining Unicode char U+1F587 (decimal 128391)
+   defining Unicode char U+1F58A (decimal 128394)
+   defining Unicode char U+1F58B (decimal 128395)
+   defining Unicode char U+1F58C (decimal 128396)
+   defining Unicode char U+1F58D (decimal 128397)
+   defining Unicode char U+1F590 (decimal 128400)
+   defining Unicode char U+1F595 (decimal 128405)
+   defining Unicode char U+1F596 (decimal 128406)
+   defining Unicode char U+1F5A4 (decimal 128420)
+   defining Unicode char U+1F5A5 (decimal 128421)
+   defining Unicode char U+1F5A8 (decimal 128424)
+   defining Unicode char U+1F5B1 (decimal 128433)
+   defining Unicode char U+1F5B2 (decimal 128434)
+   defining Unicode char U+1F5BC (decimal 128444)
+   defining Unicode char U+1F5C2 (decimal 128450)
+   defining Unicode char U+1F5C3 (decimal 128451)
+   defining Unicode char U+1F5C4 (decimal 128452)
+   defining Unicode char U+1F5D1 (decimal 128465)
+   defining Unicode char U+1F5D2 (decimal 128466)
+   defining Unicode char U+1F5D3 (decimal 128467)
+   defining Unicode char U+1F5DC (decimal 128476)
+   defining Unicode char U+1F5DD (decimal 128477)
+   defining Unicode char U+1F5DE (decimal 128478)
+   defining Unicode char U+1F5E1 (decimal 128481)
+   defining Unicode char U+1F5E3 (decimal 128483)
+   defining Unicode char U+1F5E8 (decimal 128488)
+   defining Unicode char U+1F5EF (decimal 128495)
+   defining Unicode char U+1F5F3 (decimal 128499)
+   defining Unicode char U+1F5FA (decimal 128506)
+   defining Unicode char U+1F5FB (decimal 128507)
+   defining Unicode char U+1F5FC (decimal 128508)
+   defining Unicode char U+1F5FD (decimal 128509)
+   defining Unicode char U+1F5FE (decimal 128510)
+   defining Unicode char U+1F5FF (decimal 128511)
+   defining Unicode char U+1F600 (decimal 128512)
+   defining Unicode char U+1F601 (decimal 128513)
+   defining Unicode char U+1F602 (decimal 128514)
+   defining Unicode char U+1F603 (decimal 128515)
+   defining Unicode char U+1F604 (decimal 128516)
+   defining Unicode char U+1F605 (decimal 128517)
+   defining Unicode char U+1F606 (decimal 128518)
+   defining Unicode char U+1F607 (decimal 128519)
+   defining Unicode char U+1F608 (decimal 128520)
+   defining Unicode char U+1F609 (decimal 128521)
+   defining Unicode char U+1F60A (decimal 128522)
+   defining Unicode char U+1F60B (decimal 128523)
+   defining Unicode char U+1F60C (decimal 128524)
+   defining Unicode char U+1F60D (decimal 128525)
+   defining Unicode char U+1F60E (decimal 128526)
+   defining Unicode char U+1F60F (decimal 128527)
+   defining Unicode char U+1F610 (decimal 128528)
+   defining Unicode char U+1F611 (decimal 128529)
+   defining Unicode char U+1F612 (decimal 128530)
+   defining Unicode char U+1F613 (decimal 128531)
+   defining Unicode char U+1F614 (decimal 128532)
+   defining Unicode char U+1F615 (decimal 128533)
+   defining Unicode char U+1F616 (decimal 128534)
+   defining Unicode char U+1F617 (decimal 128535)
+   defining Unicode char U+1F618 (decimal 128536)
+   defining Unicode char U+1F619 (decimal 128537)
+   defining Unicode char U+1F61A (decimal 128538)
+   defining Unicode char U+1F61B (decimal 128539)
+   defining Unicode char U+1F61C (decimal 128540)
+   defining Unicode char U+1F61D (decimal 128541)
+   defining Unicode char U+1F61E (decimal 128542)
+   defining Unicode char U+1F61F (decimal 128543)
+   defining Unicode char U+1F620 (decimal 128544)
+   defining Unicode char U+1F621 (decimal 128545)
+   defining Unicode char U+1F622 (decimal 128546)
+   defining Unicode char U+1F623 (decimal 128547)
+   defining Unicode char U+1F624 (decimal 128548)
+   defining Unicode char U+1F625 (decimal 128549)
+   defining Unicode char U+1F626 (decimal 128550)
+   defining Unicode char U+1F627 (decimal 128551)
+   defining Unicode char U+1F628 (decimal 128552)
+   defining Unicode char U+1F629 (decimal 128553)
+   defining Unicode char U+1F62A (decimal 128554)
+   defining Unicode char U+1F62B (decimal 128555)
+   defining Unicode char U+1F62C (decimal 128556)
+   defining Unicode char U+1F62D (decimal 128557)
+   defining Unicode char U+1F62E (decimal 128558)
+   defining Unicode char U+1F62F (decimal 128559)
+   defining Unicode char U+1F630 (decimal 128560)
+   defining Unicode char U+1F631 (decimal 128561)
+   defining Unicode char U+1F632 (decimal 128562)
+   defining Unicode char U+1F633 (decimal 128563)
+   defining Unicode char U+1F634 (decimal 128564)
+   defining Unicode char U+1F635 (decimal 128565)
+   defining Unicode char U+1F636 (decimal 128566)
+   defining Unicode char U+1F637 (decimal 128567)
+   defining Unicode char U+1F638 (decimal 128568)
+   defining Unicode char U+1F639 (decimal 128569)
+   defining Unicode char U+1F63A (decimal 128570)
+   defining Unicode char U+1F63B (decimal 128571)
+   defining Unicode char U+1F63C (decimal 128572)
+   defining Unicode char U+1F63D (decimal 128573)
+   defining Unicode char U+1F63E (decimal 128574)
+   defining Unicode char U+1F63F (decimal 128575)
+   defining Unicode char U+1F640 (decimal 128576)
+   defining Unicode char U+1F641 (decimal 128577)
+   defining Unicode char U+1F642 (decimal 128578)
+   defining Unicode char U+1F643 (decimal 128579)
+   defining Unicode char U+1F644 (decimal 128580)
+   defining Unicode char U+1F645 (decimal 128581)
+   defining Unicode char U+1F646 (decimal 128582)
+   defining Unicode char U+1F647 (decimal 128583)
+   defining Unicode char U+1F648 (decimal 128584)
+   defining Unicode char U+1F649 (decimal 128585)
+   defining Unicode char U+1F64A (decimal 128586)
+   defining Unicode char U+1F64B (decimal 128587)
+   defining Unicode char U+1F64C (decimal 128588)
+   defining Unicode char U+1F64D (decimal 128589)
+   defining Unicode char U+1F64E (decimal 128590)
+   defining Unicode char U+1F64F (decimal 128591)
+   defining Unicode char U+1F680 (decimal 128640)
+   defining Unicode char U+1F681 (decimal 128641)
+   defining Unicode char U+1F682 (decimal 128642)
+   defining Unicode char U+1F683 (decimal 128643)
+   defining Unicode char U+1F684 (decimal 128644)
+   defining Unicode char U+1F685 (decimal 128645)
+   defining Unicode char U+1F686 (decimal 128646)
+   defining Unicode char U+1F687 (decimal 128647)
+   defining Unicode char U+1F688 (decimal 128648)
+   defining Unicode char U+1F689 (decimal 128649)
+   defining Unicode char U+1F68A (decimal 128650)
+   defining Unicode char U+1F68B (decimal 128651)
+   defining Unicode char U+1F68C (decimal 128652)
+   defining Unicode char U+1F68D (decimal 128653)
+   defining Unicode char U+1F68E (decimal 128654)
+   defining Unicode char U+1F68F (decimal 128655)
+   defining Unicode char U+1F690 (decimal 128656)
+   defining Unicode char U+1F691 (decimal 128657)
+   defining Unicode char U+1F692 (decimal 128658)
+   defining Unicode char U+1F693 (decimal 128659)
+   defining Unicode char U+1F694 (decimal 128660)
+   defining Unicode char U+1F695 (decimal 128661)
+   defining Unicode char U+1F696 (decimal 128662)
+   defining Unicode char U+1F697 (decimal 128663)
+   defining Unicode char U+1F698 (decimal 128664)
+   defining Unicode char U+1F699 (decimal 128665)
+   defining Unicode char U+1F69A (decimal 128666)
+   defining Unicode char U+1F69B (decimal 128667)
+   defining Unicode char U+1F69C (decimal 128668)
+   defining Unicode char U+1F69D (decimal 128669)
+   defining Unicode char U+1F69E (decimal 128670)
+   defining Unicode char U+1F69F (decimal 128671)
+   defining Unicode char U+1F6A0 (decimal 128672)
+   defining Unicode char U+1F6A1 (decimal 128673)
+   defining Unicode char U+1F6A2 (decimal 128674)
+   defining Unicode char U+1F6A3 (decimal 128675)
+   defining Unicode char U+1F6A4 (decimal 128676)
+   defining Unicode char U+1F6A5 (decimal 128677)
+   defining Unicode char U+1F6A6 (decimal 128678)
+   defining Unicode char U+1F6A7 (decimal 128679)
+   defining Unicode char U+1F6A8 (decimal 128680)
+   defining Unicode char U+1F6A9 (decimal 128681)
+   defining Unicode char U+1F6AA (decimal 128682)
+   defining Unicode char U+1F6AB (decimal 128683)
+   defining Unicode char U+1F6AC (decimal 128684)
+   defining Unicode char U+1F6AD (decimal 128685)
+   defining Unicode char U+1F6AE (decimal 128686)
+   defining Unicode char U+1F6AF (decimal 128687)
+   defining Unicode char U+1F6B0 (decimal 128688)
+   defining Unicode char U+1F6B1 (decimal 128689)
+   defining Unicode char U+1F6B2 (decimal 128690)
+   defining Unicode char U+1F6B3 (decimal 128691)
+   defining Unicode char U+1F6B4 (decimal 128692)
+   defining Unicode char U+1F6B5 (decimal 128693)
+   defining Unicode char U+1F6B6 (decimal 128694)
+   defining Unicode char U+1F6B7 (decimal 128695)
+   defining Unicode char U+1F6B8 (decimal 128696)
+   defining Unicode char U+1F6B9 (decimal 128697)
+   defining Unicode char U+1F6BA (decimal 128698)
+   defining Unicode char U+1F6BB (decimal 128699)
+   defining Unicode char U+1F6BC (decimal 128700)
+   defining Unicode char U+1F6BD (decimal 128701)
+   defining Unicode char U+1F6BE (decimal 128702)
+   defining Unicode char U+1F6BF (decimal 128703)
+   defining Unicode char U+1F6C0 (decimal 128704)
+   defining Unicode char U+1F6C1 (decimal 128705)
+   defining Unicode char U+1F6C2 (decimal 128706)
+   defining Unicode char U+1F6C3 (decimal 128707)
+   defining Unicode char U+1F6C4 (decimal 128708)
+   defining Unicode char U+1F6C5 (decimal 128709)
+   defining Unicode char U+1F6CB (decimal 128715)
+   defining Unicode char U+1F6CC (decimal 128716)
+   defining Unicode char U+1F6CD (decimal 128717)
+   defining Unicode char U+1F6CE (decimal 128718)
+   defining Unicode char U+1F6CF (decimal 128719)
+   defining Unicode char U+1F6D0 (decimal 128720)
+   defining Unicode char U+1F6D1 (decimal 128721)
+   defining Unicode char U+1F6D2 (decimal 128722)
+   defining Unicode char U+1F6D5 (decimal 128725)
+   defining Unicode char U+1F6D6 (decimal 128726)
+   defining Unicode char U+1F6D7 (decimal 128727)
+   defining Unicode char U+1F6DD (decimal 128733)
+   defining Unicode char U+1F6DE (decimal 128734)
+   defining Unicode char U+1F6DF (decimal 128735)
+   defining Unicode char U+1F6E0 (decimal 128736)
+   defining Unicode char U+1F6E1 (decimal 128737)
+   defining Unicode char U+1F6E2 (decimal 128738)
+   defining Unicode char U+1F6E3 (decimal 128739)
+   defining Unicode char U+1F6E4 (decimal 128740)
+   defining Unicode char U+1F6E5 (decimal 128741)
+   defining Unicode char U+1F6E9 (decimal 128745)
+   defining Unicode char U+1F6EB (decimal 128747)
+   defining Unicode char U+1F6EC (decimal 128748)
+   defining Unicode char U+1F6F0 (decimal 128752)
+   defining Unicode char U+1F6F3 (decimal 128755)
+   defining Unicode char U+1F6F4 (decimal 128756)
+   defining Unicode char U+1F6F5 (decimal 128757)
+   defining Unicode char U+1F6F6 (decimal 128758)
+   defining Unicode char U+1F6F7 (decimal 128759)
+   defining Unicode char U+1F6F8 (decimal 128760)
+   defining Unicode char U+1F6F9 (decimal 128761)
+   defining Unicode char U+1F6FA (decimal 128762)
+   defining Unicode char U+1F6FB (decimal 128763)
+   defining Unicode char U+1F6FC (decimal 128764)
+   defining Unicode char U+1F7E0 (decimal 128992)
+   defining Unicode char U+1F7E1 (decimal 128993)
+   defining Unicode char U+1F7E2 (decimal 128994)
+   defining Unicode char U+1F7E3 (decimal 128995)
+   defining Unicode char U+1F7E4 (decimal 128996)
+   defining Unicode char U+1F7E5 (decimal 128997)
+   defining Unicode char U+1F7E6 (decimal 128998)
+   defining Unicode char U+1F7E7 (decimal 128999)
+   defining Unicode char U+1F7E8 (decimal 129000)
+   defining Unicode char U+1F7E9 (decimal 129001)
+   defining Unicode char U+1F7EA (decimal 129002)
+   defining Unicode char U+1F7EB (decimal 129003)
+   defining Unicode char U+1F7F0 (decimal 129008)
+   defining Unicode char U+1F90C (decimal 129292)
+   defining Unicode char U+1F90D (decimal 129293)
+   defining Unicode char U+1F90E (decimal 129294)
+   defining Unicode char U+1F90F (decimal 129295)
+   defining Unicode char U+1F910 (decimal 129296)
+   defining Unicode char U+1F911 (decimal 129297)
+   defining Unicode char U+1F912 (decimal 129298)
+   defining Unicode char U+1F913 (decimal 129299)
+   defining Unicode char U+1F914 (decimal 129300)
+   defining Unicode char U+1F915 (decimal 129301)
+   defining Unicode char U+1F916 (decimal 129302)
+   defining Unicode char U+1F917 (decimal 129303)
+   defining Unicode char U+1F918 (decimal 129304)
+   defining Unicode char U+1F919 (decimal 129305)
+   defining Unicode char U+1F91A (decimal 129306)
+   defining Unicode char U+1F91B (decimal 129307)
+   defining Unicode char U+1F91C (decimal 129308)
+   defining Unicode char U+1F91D (decimal 129309)
+   defining Unicode char U+1F91E (decimal 129310)
+   defining Unicode char U+1F91F (decimal 129311)
+   defining Unicode char U+1F920 (decimal 129312)
+   defining Unicode char U+1F921 (decimal 129313)
+   defining Unicode char U+1F922 (decimal 129314)
+   defining Unicode char U+1F923 (decimal 129315)
+   defining Unicode char U+1F924 (decimal 129316)
+   defining Unicode char U+1F925 (decimal 129317)
+   defining Unicode char U+1F926 (decimal 129318)
+   defining Unicode char U+1F927 (decimal 129319)
+   defining Unicode char U+1F928 (decimal 129320)
+   defining Unicode char U+1F929 (decimal 129321)
+   defining Unicode char U+1F92A (decimal 129322)
+   defining Unicode char U+1F92B (decimal 129323)
+   defining Unicode char U+1F92C (decimal 129324)
+   defining Unicode char U+1F92D (decimal 129325)
+   defining Unicode char U+1F92E (decimal 129326)
+   defining Unicode char U+1F92F (decimal 129327)
+   defining Unicode char U+1F930 (decimal 129328)
+   defining Unicode char U+1F931 (decimal 129329)
+   defining Unicode char U+1F932 (decimal 129330)
+   defining Unicode char U+1F933 (decimal 129331)
+   defining Unicode char U+1F934 (decimal 129332)
+   defining Unicode char U+1F935 (decimal 129333)
+   defining Unicode char U+1F936 (decimal 129334)
+   defining Unicode char U+1F937 (decimal 129335)
+   defining Unicode char U+1F938 (decimal 129336)
+   defining Unicode char U+1F939 (decimal 129337)
+   defining Unicode char U+1F93A (decimal 129338)
+   defining Unicode char U+1F93C (decimal 129340)
+   defining Unicode char U+1F93D (decimal 129341)
+   defining Unicode char U+1F93E (decimal 129342)
+   defining Unicode char U+1F93F (decimal 129343)
+   defining Unicode char U+1F940 (decimal 129344)
+   defining Unicode char U+1F941 (decimal 129345)
+   defining Unicode char U+1F942 (decimal 129346)
+   defining Unicode char U+1F943 (decimal 129347)
+   defining Unicode char U+1F944 (decimal 129348)
+   defining Unicode char U+1F945 (decimal 129349)
+   defining Unicode char U+1F947 (decimal 129351)
+   defining Unicode char U+1F948 (decimal 129352)
+   defining Unicode char U+1F949 (decimal 129353)
+   defining Unicode char U+1F94A (decimal 129354)
+   defining Unicode char U+1F94B (decimal 129355)
+   defining Unicode char U+1F94C (decimal 129356)
+   defining Unicode char U+1F94D (decimal 129357)
+   defining Unicode char U+1F94E (decimal 129358)
+   defining Unicode char U+1F94F (decimal 129359)
+   defining Unicode char U+1F950 (decimal 129360)
+   defining Unicode char U+1F951 (decimal 129361)
+   defining Unicode char U+1F952 (decimal 129362)
+   defining Unicode char U+1F953 (decimal 129363)
+   defining Unicode char U+1F954 (decimal 129364)
+   defining Unicode char U+1F955 (decimal 129365)
+   defining Unicode char U+1F956 (decimal 129366)
+   defining Unicode char U+1F957 (decimal 129367)
+   defining Unicode char U+1F958 (decimal 129368)
+   defining Unicode char U+1F959 (decimal 129369)
+   defining Unicode char U+1F95A (decimal 129370)
+   defining Unicode char U+1F95B (decimal 129371)
+   defining Unicode char U+1F95C (decimal 129372)
+   defining Unicode char U+1F95D (decimal 129373)
+   defining Unicode char U+1F95E (decimal 129374)
+   defining Unicode char U+1F95F (decimal 129375)
+   defining Unicode char U+1F960 (decimal 129376)
+   defining Unicode char U+1F961 (decimal 129377)
+   defining Unicode char U+1F962 (decimal 129378)
+   defining Unicode char U+1F963 (decimal 129379)
+   defining Unicode char U+1F964 (decimal 129380)
+   defining Unicode char U+1F965 (decimal 129381)
+   defining Unicode char U+1F966 (decimal 129382)
+   defining Unicode char U+1F967 (decimal 129383)
+   defining Unicode char U+1F968 (decimal 129384)
+   defining Unicode char U+1F969 (decimal 129385)
+   defining Unicode char U+1F96A (decimal 129386)
+   defining Unicode char U+1F96B (decimal 129387)
+   defining Unicode char U+1F96C (decimal 129388)
+   defining Unicode char U+1F96D (decimal 129389)
+   defining Unicode char U+1F96E (decimal 129390)
+   defining Unicode char U+1F96F (decimal 129391)
+   defining Unicode char U+1F970 (decimal 129392)
+   defining Unicode char U+1F971 (decimal 129393)
+   defining Unicode char U+1F972 (decimal 129394)
+   defining Unicode char U+1F973 (decimal 129395)
+   defining Unicode char U+1F974 (decimal 129396)
+   defining Unicode char U+1F975 (decimal 129397)
+   defining Unicode char U+1F976 (decimal 129398)
+   defining Unicode char U+1F977 (decimal 129399)
+   defining Unicode char U+1F978 (decimal 129400)
+   defining Unicode char U+1F979 (decimal 129401)
+   defining Unicode char U+1F97A (decimal 129402)
+   defining Unicode char U+1F97B (decimal 129403)
+   defining Unicode char U+1F97C (decimal 129404)
+   defining Unicode char U+1F97D (decimal 129405)
+   defining Unicode char U+1F97E (decimal 129406)
+   defining Unicode char U+1F97F (decimal 129407)
+   defining Unicode char U+1F980 (decimal 129408)
+   defining Unicode char U+1F981 (decimal 129409)
+   defining Unicode char U+1F982 (decimal 129410)
+   defining Unicode char U+1F983 (decimal 129411)
+   defining Unicode char U+1F984 (decimal 129412)
+   defining Unicode char U+1F985 (decimal 129413)
+   defining Unicode char U+1F986 (decimal 129414)
+   defining Unicode char U+1F987 (decimal 129415)
+   defining Unicode char U+1F988 (decimal 129416)
+   defining Unicode char U+1F989 (decimal 129417)
+   defining Unicode char U+1F98A (decimal 129418)
+   defining Unicode char U+1F98B (decimal 129419)
+   defining Unicode char U+1F98C (decimal 129420)
+   defining Unicode char U+1F98D (decimal 129421)
+   defining Unicode char U+1F98E (decimal 129422)
+   defining Unicode char U+1F98F (decimal 129423)
+   defining Unicode char U+1F990 (decimal 129424)
+   defining Unicode char U+1F991 (decimal 129425)
+   defining Unicode char U+1F992 (decimal 129426)
+   defining Unicode char U+1F993 (decimal 129427)
+   defining Unicode char U+1F994 (decimal 129428)
+   defining Unicode char U+1F995 (decimal 129429)
+   defining Unicode char U+1F996 (decimal 129430)
+   defining Unicode char U+1F997 (decimal 129431)
+   defining Unicode char U+1F998 (decimal 129432)
+   defining Unicode char U+1F999 (decimal 129433)
+   defining Unicode char U+1F99A (decimal 129434)
+   defining Unicode char U+1F99B (decimal 129435)
+   defining Unicode char U+1F99C (decimal 129436)
+   defining Unicode char U+1F99D (decimal 129437)
+   defining Unicode char U+1F99E (decimal 129438)
+   defining Unicode char U+1F99F (decimal 129439)
+   defining Unicode char U+1F9A0 (decimal 129440)
+   defining Unicode char U+1F9A1 (decimal 129441)
+   defining Unicode char U+1F9A2 (decimal 129442)
+   defining Unicode char U+1F9A3 (decimal 129443)
+   defining Unicode char U+1F9A4 (decimal 129444)
+   defining Unicode char U+1F9A5 (decimal 129445)
+   defining Unicode char U+1F9A6 (decimal 129446)
+   defining Unicode char U+1F9A7 (decimal 129447)
+   defining Unicode char U+1F9A8 (decimal 129448)
+   defining Unicode char U+1F9A9 (decimal 129449)
+   defining Unicode char U+1F9AA (decimal 129450)
+   defining Unicode char U+1F9AB (decimal 129451)
+   defining Unicode char U+1F9AC (decimal 129452)
+   defining Unicode char U+1F9AD (decimal 129453)
+   defining Unicode char U+1F9AE (decimal 129454)
+   defining Unicode char U+1F9AF (decimal 129455)
+   defining Unicode char U+1F9B0 (decimal 129456)
+   defining Unicode char U+1F9B1 (decimal 129457)
+   defining Unicode char U+1F9B2 (decimal 129458)
+   defining Unicode char U+1F9B3 (decimal 129459)
+   defining Unicode char U+1F9B4 (decimal 129460)
+   defining Unicode char U+1F9B5 (decimal 129461)
+   defining Unicode char U+1F9B6 (decimal 129462)
+   defining Unicode char U+1F9B7 (decimal 129463)
+   defining Unicode char U+1F9B8 (decimal 129464)
+   defining Unicode char U+1F9B9 (decimal 129465)
+   defining Unicode char U+1F9BA (decimal 129466)
+   defining Unicode char U+1F9BB (decimal 129467)
+   defining Unicode char U+1F9BC (decimal 129468)
+   defining Unicode char U+1F9BD (decimal 129469)
+   defining Unicode char U+1F9BE (decimal 129470)
+   defining Unicode char U+1F9BF (decimal 129471)
+   defining Unicode char U+1F9C0 (decimal 129472)
+   defining Unicode char U+1F9C1 (decimal 129473)
+   defining Unicode char U+1F9C2 (decimal 129474)
+   defining Unicode char U+1F9C3 (decimal 129475)
+   defining Unicode char U+1F9C4 (decimal 129476)
+   defining Unicode char U+1F9C5 (decimal 129477)
+   defining Unicode char U+1F9C6 (decimal 129478)
+   defining Unicode char U+1F9C7 (decimal 129479)
+   defining Unicode char U+1F9C8 (decimal 129480)
+   defining Unicode char U+1F9C9 (decimal 129481)
+   defining Unicode char U+1F9CA (decimal 129482)
+   defining Unicode char U+1F9CB (decimal 129483)
+   defining Unicode char U+1F9CC (decimal 129484)
+   defining Unicode char U+1F9CD (decimal 129485)
+   defining Unicode char U+1F9CE (decimal 129486)
+   defining Unicode char U+1F9CF (decimal 129487)
+   defining Unicode char U+1F9D0 (decimal 129488)
+   defining Unicode char U+1F9D1 (decimal 129489)
+   defining Unicode char U+1F9D2 (decimal 129490)
+   defining Unicode char U+1F9D3 (decimal 129491)
+   defining Unicode char U+1F9D4 (decimal 129492)
+   defining Unicode char U+1F9D5 (decimal 129493)
+   defining Unicode char U+1F9D6 (decimal 129494)
+   defining Unicode char U+1F9D7 (decimal 129495)
+   defining Unicode char U+1F9D8 (decimal 129496)
+   defining Unicode char U+1F9D9 (decimal 129497)
+   defining Unicode char U+1F9DA (decimal 129498)
+   defining Unicode char U+1F9DB (decimal 129499)
+   defining Unicode char U+1F9DC (decimal 129500)
+   defining Unicode char U+1F9DD (decimal 129501)
+   defining Unicode char U+1F9DE (decimal 129502)
+   defining Unicode char U+1F9DF (decimal 129503)
+   defining Unicode char U+1F9E0 (decimal 129504)
+   defining Unicode char U+1F9E1 (decimal 129505)
+   defining Unicode char U+1F9E2 (decimal 129506)
+   defining Unicode char U+1F9E3 (decimal 129507)
+   defining Unicode char U+1F9E4 (decimal 129508)
+   defining Unicode char U+1F9E5 (decimal 129509)
+   defining Unicode char U+1F9E6 (decimal 129510)
+   defining Unicode char U+1F9E7 (decimal 129511)
+   defining Unicode char U+1F9E8 (decimal 129512)
+   defining Unicode char U+1F9E9 (decimal 129513)
+   defining Unicode char U+1F9EA (decimal 129514)
+   defining Unicode char U+1F9EB (decimal 129515)
+   defining Unicode char U+1F9EC (decimal 129516)
+   defining Unicode char U+1F9ED (decimal 129517)
+   defining Unicode char U+1F9EE (decimal 129518)
+   defining Unicode char U+1F9EF (decimal 129519)
+   defining Unicode char U+1F9F0 (decimal 129520)
+   defining Unicode char U+1F9F1 (decimal 129521)
+   defining Unicode char U+1F9F2 (decimal 129522)
+   defining Unicode char U+1F9F3 (decimal 129523)
+   defining Unicode char U+1F9F4 (decimal 129524)
+   defining Unicode char U+1F9F5 (decimal 129525)
+   defining Unicode char U+1F9F6 (decimal 129526)
+   defining Unicode char U+1F9F7 (decimal 129527)
+   defining Unicode char U+1F9F8 (decimal 129528)
+   defining Unicode char U+1F9F9 (decimal 129529)
+   defining Unicode char U+1F9FA (decimal 129530)
+   defining Unicode char U+1F9FB (decimal 129531)
+   defining Unicode char U+1F9FC (decimal 129532)
+   defining Unicode char U+1F9FD (decimal 129533)
+   defining Unicode char U+1F9FE (decimal 129534)
+   defining Unicode char U+1F9FF (decimal 129535)
+   defining Unicode char U+1FA70 (decimal 129648)
+   defining Unicode char U+1FA71 (decimal 129649)
+   defining Unicode char U+1FA72 (decimal 129650)
+   defining Unicode char U+1FA73 (decimal 129651)
+   defining Unicode char U+1FA74 (decimal 129652)
+   defining Unicode char U+1FA78 (decimal 129656)
+   defining Unicode char U+1FA79 (decimal 129657)
+   defining Unicode char U+1FA7A (decimal 129658)
+   defining Unicode char U+1FA7B (decimal 129659)
+   defining Unicode char U+1FA7C (decimal 129660)
+   defining Unicode char U+1FA80 (decimal 129664)
+   defining Unicode char U+1FA81 (decimal 129665)
+   defining Unicode char U+1FA82 (decimal 129666)
+   defining Unicode char U+1FA83 (decimal 129667)
+   defining Unicode char U+1FA84 (decimal 129668)
+   defining Unicode char U+1FA85 (decimal 129669)
+   defining Unicode char U+1FA86 (decimal 129670)
+   defining Unicode char U+1FA90 (decimal 129680)
+   defining Unicode char U+1FA91 (decimal 129681)
+   defining Unicode char U+1FA92 (decimal 129682)
+   defining Unicode char U+1FA93 (decimal 129683)
+   defining Unicode char U+1FA94 (decimal 129684)
+   defining Unicode char U+1FA95 (decimal 129685)
+   defining Unicode char U+1FA96 (decimal 129686)
+   defining Unicode char U+1FA97 (decimal 129687)
+   defining Unicode char U+1FA98 (decimal 129688)
+   defining Unicode char U+1FA99 (decimal 129689)
+   defining Unicode char U+1FA9A (decimal 129690)
+   defining Unicode char U+1FA9B (decimal 129691)
+   defining Unicode char U+1FA9C (decimal 129692)
+   defining Unicode char U+1FA9D (decimal 129693)
+   defining Unicode char U+1FA9E (decimal 129694)
+   defining Unicode char U+1FA9F (decimal 129695)
+   defining Unicode char U+1FAA0 (decimal 129696)
+   defining Unicode char U+1FAA1 (decimal 129697)
+   defining Unicode char U+1FAA2 (decimal 129698)
+   defining Unicode char U+1FAA3 (decimal 129699)
+   defining Unicode char U+1FAA4 (decimal 129700)
+   defining Unicode char U+1FAA5 (decimal 129701)
+   defining Unicode char U+1FAA6 (decimal 129702)
+   defining Unicode char U+1FAA7 (decimal 129703)
+   defining Unicode char U+1FAA8 (decimal 129704)
+   defining Unicode char U+1FAA9 (decimal 129705)
+   defining Unicode char U+1FAAA (decimal 129706)
+   defining Unicode char U+1FAAB (decimal 129707)
+   defining Unicode char U+1FAAC (decimal 129708)
+   defining Unicode char U+1FAB0 (decimal 129712)
+   defining Unicode char U+1FAB1 (decimal 129713)
+   defining Unicode char U+1FAB2 (decimal 129714)
+   defining Unicode char U+1FAB3 (decimal 129715)
+   defining Unicode char U+1FAB4 (decimal 129716)
+   defining Unicode char U+1FAB5 (decimal 129717)
+   defining Unicode char U+1FAB6 (decimal 129718)
+   defining Unicode char U+1FAB7 (decimal 129719)
+   defining Unicode char U+1FAB8 (decimal 129720)
+   defining Unicode char U+1FAB9 (decimal 129721)
+   defining Unicode char U+1FABA (decimal 129722)
+   defining Unicode char U+1FAC0 (decimal 129728)
+   defining Unicode char U+1FAC1 (decimal 129729)
+   defining Unicode char U+1FAC2 (decimal 129730)
+   defining Unicode char U+1FAC3 (decimal 129731)
+   defining Unicode char U+1FAC4 (decimal 129732)
+   defining Unicode char U+1FAC5 (decimal 129733)
+   defining Unicode char U+1FAD0 (decimal 129744)
+   defining Unicode char U+1FAD1 (decimal 129745)
+   defining Unicode char U+1FAD2 (decimal 129746)
+   defining Unicode char U+1FAD3 (decimal 129747)
+   defining Unicode char U+1FAD4 (decimal 129748)
+   defining Unicode char U+1FAD5 (decimal 129749)
+   defining Unicode char U+1FAD6 (decimal 129750)
+   defining Unicode char U+1FAD7 (decimal 129751)
+   defining Unicode char U+1FAD8 (decimal 129752)
+   defining Unicode char U+1FAD9 (decimal 129753)
+   defining Unicode char U+1FAE0 (decimal 129760)
+   defining Unicode char U+1FAE1 (decimal 129761)
+   defining Unicode char U+1FAE2 (decimal 129762)
+   defining Unicode char U+1FAE3 (decimal 129763)
+   defining Unicode char U+1FAE4 (decimal 129764)
+   defining Unicode char U+1FAE5 (decimal 129765)
+   defining Unicode char U+1FAE6 (decimal 129766)
+   defining Unicode char U+1FAE7 (decimal 129767)
+   defining Unicode char U+1FAF0 (decimal 129776)
+   defining Unicode char U+1FAF1 (decimal 129777)
+   defining Unicode char U+1FAF2 (decimal 129778)
+   defining Unicode char U+1FAF3 (decimal 129779)
+   defining Unicode char U+1FAF4 (decimal 129780)
+   defining Unicode char U+1FAF5 (decimal 129781)
+   defining Unicode char U+1FAF6 (decimal 129782)
+   defining Unicode char U+203C (decimal 8252)
+   defining Unicode char U+2049 (decimal 8265)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2139 (decimal 8505)
+   defining Unicode char U+2194 (decimal 8596)
+   defining Unicode char U+2195 (decimal 8597)
+   defining Unicode char U+2196 (decimal 8598)
+   defining Unicode char U+2197 (decimal 8599)
+   defining Unicode char U+2198 (decimal 8600)
+   defining Unicode char U+2199 (decimal 8601)
+   defining Unicode char U+21A9 (decimal 8617)
+   defining Unicode char U+21AA (decimal 8618)
+   defining Unicode char U+231A (decimal 8986)
+   defining Unicode char U+231B (decimal 8987)
+   defining Unicode char U+2328 (decimal 9000)
+   defining Unicode char U+23CF (decimal 9167)
+   defining Unicode char U+23E9 (decimal 9193)
+   defining Unicode char U+23EA (decimal 9194)
+   defining Unicode char U+23EB (decimal 9195)
+   defining Unicode char U+23EC (decimal 9196)
+   defining Unicode char U+23ED (decimal 9197)
+   defining Unicode char U+23EE (decimal 9198)
+   defining Unicode char U+23EF (decimal 9199)
+   defining Unicode char U+23F0 (decimal 9200)
+   defining Unicode char U+23F1 (decimal 9201)
+   defining Unicode char U+23F2 (decimal 9202)
+   defining Unicode char U+23F3 (decimal 9203)
+   defining Unicode char U+23F8 (decimal 9208)
+   defining Unicode char U+23F9 (decimal 9209)
+   defining Unicode char U+23FA (decimal 9210)
+   defining Unicode char U+24C2 (decimal 9410)
+   defining Unicode char U+25AA (decimal 9642)
+   defining Unicode char U+25AB (decimal 9643)
+   defining Unicode char U+25B6 (decimal 9654)
+   defining Unicode char U+25C0 (decimal 9664)
+   defining Unicode char U+25FB (decimal 9723)
+   defining Unicode char U+25FC (decimal 9724)
+   defining Unicode char U+25FD (decimal 9725)
+   defining Unicode char U+25FE (decimal 9726)
+   defining Unicode char U+2600 (decimal 9728)
+   defining Unicode char U+2601 (decimal 9729)
+   defining Unicode char U+2602 (decimal 9730)
+   defining Unicode char U+2603 (decimal 9731)
+   defining Unicode char U+2604 (decimal 9732)
+   defining Unicode char U+260E (decimal 9742)
+   defining Unicode char U+2611 (decimal 9745)
+   defining Unicode char U+2614 (decimal 9748)
+   defining Unicode char U+2615 (decimal 9749)
+   defining Unicode char U+2618 (decimal 9752)
+   defining Unicode char U+261D (decimal 9757)
+   defining Unicode char U+2620 (decimal 9760)
+   defining Unicode char U+2622 (decimal 9762)
+   defining Unicode char U+2623 (decimal 9763)
+   defining Unicode char U+2626 (decimal 9766)
+   defining Unicode char U+262A (decimal 9770)
+   defining Unicode char U+262E (decimal 9774)
+   defining Unicode char U+262F (decimal 9775)
+   defining Unicode char U+2638 (decimal 9784)
+   defining Unicode char U+2639 (decimal 9785)
+   defining Unicode char U+263A (decimal 9786)
+   defining Unicode char U+2640 (decimal 9792)
+   defining Unicode char U+2642 (decimal 9794)
+   defining Unicode char U+2648 (decimal 9800)
+   defining Unicode char U+2649 (decimal 9801)
+   defining Unicode char U+264A (decimal 9802)
+   defining Unicode char U+264B (decimal 9803)
+   defining Unicode char U+264C (decimal 9804)
+   defining Unicode char U+264D (decimal 9805)
+   defining Unicode char U+264E (decimal 9806)
+   defining Unicode char U+264F (decimal 9807)
+   defining Unicode char U+2650 (decimal 9808)
+   defining Unicode char U+2651 (decimal 9809)
+   defining Unicode char U+2652 (decimal 9810)
+   defining Unicode char U+2653 (decimal 9811)
+   defining Unicode char U+265F (decimal 9823)
+   defining Unicode char U+2660 (decimal 9824)
+   defining Unicode char U+2663 (decimal 9827)
+   defining Unicode char U+2665 (decimal 9829)
+   defining Unicode char U+2666 (decimal 9830)
+   defining Unicode char U+2668 (decimal 9832)
+   defining Unicode char U+267B (decimal 9851)
+   defining Unicode char U+267E (decimal 9854)
+   defining Unicode char U+267F (decimal 9855)
+   defining Unicode char U+2692 (decimal 9874)
+   defining Unicode char U+2693 (decimal 9875)
+   defining Unicode char U+2694 (decimal 9876)
+   defining Unicode char U+2695 (decimal 9877)
+   defining Unicode char U+2696 (decimal 9878)
+   defining Unicode char U+2697 (decimal 9879)
+   defining Unicode char U+2699 (decimal 9881)
+   defining Unicode char U+269B (decimal 9883)
+   defining Unicode char U+269C (decimal 9884)
+   defining Unicode char U+26A0 (decimal 9888)
+   defining Unicode char U+26A1 (decimal 9889)
+   defining Unicode char U+26A7 (decimal 9895)
+   defining Unicode char U+26AA (decimal 9898)
+   defining Unicode char U+26AB (decimal 9899)
+   defining Unicode char U+26B0 (decimal 9904)
+   defining Unicode char U+26B1 (decimal 9905)
+   defining Unicode char U+26BD (decimal 9917)
+   defining Unicode char U+26BE (decimal 9918)
+   defining Unicode char U+26C4 (decimal 9924)
+   defining Unicode char U+26C5 (decimal 9925)
+   defining Unicode char U+26C8 (decimal 9928)
+   defining Unicode char U+26CE (decimal 9934)
+   defining Unicode char U+26CF (decimal 9935)
+   defining Unicode char U+26D1 (decimal 9937)
+   defining Unicode char U+26D3 (decimal 9939)
+   defining Unicode char U+26D4 (decimal 9940)
+   defining Unicode char U+26E9 (decimal 9961)
+   defining Unicode char U+26EA (decimal 9962)
+   defining Unicode char U+26F0 (decimal 9968)
+   defining Unicode char U+26F1 (decimal 9969)
+   defining Unicode char U+26F2 (decimal 9970)
+   defining Unicode char U+26F3 (decimal 9971)
+   defining Unicode char U+26F4 (decimal 9972)
+   defining Unicode char U+26F5 (decimal 9973)
+   defining Unicode char U+26F7 (decimal 9975)
+   defining Unicode char U+26F8 (decimal 9976)
+   defining Unicode char U+26F9 (decimal 9977)
+   defining Unicode char U+26FA (decimal 9978)
+   defining Unicode char U+26FD (decimal 9981)
+   defining Unicode char U+2702 (decimal 9986)
+   defining Unicode char U+2705 (decimal 9989)
+   defining Unicode char U+2708 (decimal 9992)
+   defining Unicode char U+2709 (decimal 9993)
+   defining Unicode char U+270A (decimal 9994)
+   defining Unicode char U+270B (decimal 9995)
+   defining Unicode char U+270C (decimal 9996)
+   defining Unicode char U+270D (decimal 9997)
+   defining Unicode char U+270F (decimal 9999)
+   defining Unicode char U+2712 (decimal 10002)
+   defining Unicode char U+2714 (decimal 10004)
+   defining Unicode char U+2716 (decimal 10006)
+   defining Unicode char U+271D (decimal 10013)
+   defining Unicode char U+2721 (decimal 10017)
+   defining Unicode char U+2728 (decimal 10024)
+   defining Unicode char U+2733 (decimal 10035)
+   defining Unicode char U+2734 (decimal 10036)
+   defining Unicode char U+2744 (decimal 10052)
+   defining Unicode char U+2747 (decimal 10055)
+   defining Unicode char U+274C (decimal 10060)
+   defining Unicode char U+274E (decimal 10062)
+   defining Unicode char U+2753 (decimal 10067)
+   defining Unicode char U+2754 (decimal 10068)
+   defining Unicode char U+2755 (decimal 10069)
+   defining Unicode char U+2757 (decimal 10071)
+   defining Unicode char U+2763 (decimal 10083)
+   defining Unicode char U+2764 (decimal 10084)
+   defining Unicode char U+2795 (decimal 10133)
+   defining Unicode char U+2796 (decimal 10134)
+   defining Unicode char U+2797 (decimal 10135)
+   defining Unicode char U+27A1 (decimal 10145)
+   defining Unicode char U+27B0 (decimal 10160)
+   defining Unicode char U+27BF (decimal 10175)
+   defining Unicode char U+2934 (decimal 10548)
+   defining Unicode char U+2935 (decimal 10549)
+   defining Unicode char U+2B05 (decimal 11013)
+   defining Unicode char U+2B06 (decimal 11014)
+   defining Unicode char U+2B07 (decimal 11015)
+   defining Unicode char U+2B1B (decimal 11035)
+   defining Unicode char U+2B1C (decimal 11036)
+   defining Unicode char U+2B50 (decimal 11088)
+   defining Unicode char U+2B55 (decimal 11093)
+   defining Unicode char U+3030 (decimal 12336)
+   defining Unicode char U+303D (decimal 12349)
+   defining Unicode char U+3297 (decimal 12951)
+   defining Unicode char U+3299 (decimal 12953)
+   defining Unicode char U+A9 (decimal 169)
+   defining Unicode char U+AE (decimal 174)
+   defining Unicode char U+E50A (decimal 58634)
+) (/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex) (/usr/share/texlive/texmf-dist/tex/latex/subfiles/subfiles.sty
+Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
+ (/usr/share/texlive/texmf-dist/tex/latex/import/import.sty
+Package: import 2020/04/01  v 6.2
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@layerbox@background=\box126
+\pgf@layerboxsaved@background=\box127
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen401
+\pgfdecoratedremainingdistance=\dimen402
+\pgfdecoratedinputsegmentcompleteddistance=\dimen403
+\pgfdecoratedinputsegmentremainingdistance=\dimen404
+\pgf@decorate@distancetomove=\dimen405
+\pgf@decorate@repeatstate=\count391
+\pgfdecorationsegmentamplitude=\dimen406
+\pgfdecorationsegmentlength=\dimen407
+)
+\tikz@lib@dec@box=\box128
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfit.code.tex
+File: tikzlibraryfit.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex
+File: pgflibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryautomata.code.tex
+File: tikzlibraryautomata.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodepartlowerbox=\box129
+\pgfnodeparttwobox=\box130
+\pgfnodepartthreebox=\box131
+\pgfnodepartfourbox=\box132
+\pgfnodeparttwentybox=\box133
+\pgfnodepartnineteenbox=\box134
+\pgfnodeparteighteenbox=\box135
+\pgfnodepartseventeenbox=\box136
+\pgfnodepartsixteenbox=\box137
+\pgfnodepartfifteenbox=\box138
+\pgfnodepartfourteenbox=\box139
+\pgfnodepartthirteenbox=\box140
+\pgfnodeparttwelvebox=\box141
+\pgfnodepartelevenbox=\box142
+\pgfnodeparttenbox=\box143
+\pgfnodepartninebox=\box144
+\pgfnodeparteightbox=\box145
+\pgfnodepartsevenbox=\box146
+\pgfnodepartsixbox=\box147
+\pgfnodepartfivebox=\box148
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.callouts.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.callouts.code.tex))) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2023/03/17 version 6.0.3 text color boxes
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2022-07-02 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks73
+\verbatim@line=\toks74
+\verbatim@in@stream=\read5
+) (/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+ (/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box149
+\tcb@upperbox=\box150
+\tcb@lowerbox=\box151
+\tcb@phantombox=\box152
+\c@tcbbreakpart=\count392
+\c@tcblayer=\count393
+\c@tcolorbox@number=\count394
+\tcb@temp=\box153
+\tcb@temp=\box154
+\tcb@temp=\box155
+\tcb@temp=\box156
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '6.0.3'
+\c@tcbrastercolumn=\count395
+\c@tcbrasterrow=\count396
+\c@tcbrasternum=\count397
+\c@tcbraster=\count398
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.0.3'
+(/usr/share/texlive/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
+Package: tikzfill.image 2022/07/20 v1.0.0 Image filling library for TikZ
+ (/usr/share/texlive/texmf-dist/tex/latex/tikzfill/tikzfill-common.sty
+Package: tikzfill-common 2022/07/20 v1.0.0 Auxiliary code for tikzfill
+) (/usr/share/texlive/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex
+File: tikzlibraryfill.image.code.tex 2022/07/20 v1.0.0 Image filling library
+\l__tikzfill_img_box=\box157
+)) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.0.3'
+)) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.0.3'
+(/usr/share/texlive/texmf-dist/tex/latex/pdfcol/pdfcol.sty
+Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
+)
+Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
+\tcb@testbox=\box158
+\tcb@totalupperbox=\box159
+\tcb@totallowerbox=\box160
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '6.0.3'
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '6.0.3'
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '6.0.3'
+\tcbfitdim=\dimen408
+\tcb@lowerfitdim=\dimen409
+\tcb@upperfitdim=\dimen410
+\tcb@cur@hbadness=\count399
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.0.3'
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '6.0.3'
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count400
+\lst@gtempboxa=\box161
+\lst@token=\toks75
+\lst@length=\count401
+\lst@currlwidth=\dimen411
+\lst@column=\count402
+\lst@pos=\count403
+\lst@lostspace=\dimen412
+\lst@width=\dimen413
+\lst@newlines=\count404
+\lst@lineno=\count405
+\lst@maxwidth=\dimen414
+ (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count406
+\lst@skipnumbers=\count407
+\lst@framebox=\box162
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+ (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '6.0.3'
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '6.0.3'
+(/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+))
+\c@tcblisting=\count408
+)) (/usr/share/texlive/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty
+Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)))) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '6.0.3'
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '6.0.3'
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '6.0.3'
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
+File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
+Library (tcolorbox): 'tcbposter.code.tex' version '6.0.3'
+) (/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen415
+\c@nlinenum=\count409
+\TeXr@lab=\toks76
+)
+\c@tasksi=\count410
+\enitdp@tasks=\count411
+\c@subtasksi=\count412
+\enitdp@subtasks=\count413
+\enitdp@items=\count414
+\enitdp@terms=\count415
+\c@casessubtaski=\count416
+\enitdp@casessubtask=\count417
+ (/usr/share/texlive/texmf-dist/tex/latex/footnotebackref/footnotebackref.sty
+Package: footnotebackref 2012/07/01 v1.0 Backreferences for footnotes (Holger Lange)
+ (/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
+ (/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+ (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count418
+)
+\@linkdim=\dimen416
+\Hy@linkcounter=\count419
+\Hy@pagecounter=\count420
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count421
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `unicode' set `true' on input line 3164.
+Package hyperref Info: Hyper figures OFF on input line 4177.
+Package hyperref Info: Link nesting OFF on input line 4182.
+Package hyperref Info: Hyper index ON on input line 4185.
+Package hyperref Info: Plain pages OFF on input line 4192.
+Package hyperref Info: Backreferencing OFF on input line 4197.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4425.
+\c@Hy@tempcnt=\count422
+ (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen417
+ (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count423
+\Field@Width=\dimen418
+\Fld@charsize=\dimen419
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+\Hy@abspage=\count424
+\c@Item=\count425
+\c@Hfootnote=\count426
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2023-02-07 v7.00v Hyperref driver for pdfTeX
+\HyAnn@Count=\count427
+\Fld@listcount=\count428
+\c@bookmark@seq@number=\count429
+ (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip103
+)
+\c@BackrefHyperFootnoteCounter=\count430
+) (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
+ (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
+\BKM@id=\count431
+))
+Package hyperref Info: Option `breaklinks' set `true' on input line 290.
+Package hyperref Info: Option `colorlinks' set `true' on input line 290.
+LaTeX Info: Redefining \pto on input line 373.
+LaTeX Info: Redefining \pgets on input line 373.
+
+
+Package array Warning: Column C is already defined on input line 754.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip104
+\LTright=\skip105
+\LTpre=\skip106
+\LTpost=\skip107
+\LTchunksize=\count432
+\LTcapwidth=\dimen420
+\LT@head=\box163
+\LT@firsthead=\box164
+\LT@foot=\box165
+\LT@lastfoot=\box166
+\LT@gbox=\box167
+\LT@cols=\count433
+\LT@rows=\count434
+\c@LT@tables=\count435
+\c@LT@chunks=\count436
+\LT@p@ftn=\toks77
+) (/usr/share/texlive/texmf-dist/tex/latex/t2/mathtext.sty
+Package: mathtext 2018/04/14 v1.0 transparent text-and-math defs
+LaTeX Info: Redefining \halign on input line 121.
+) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 112.
+ (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)<<t2a.cmap>>) (/usr/share/texlive/texmf-dist/tex/latex/ncctools/nccmath.sty
+Package: nccmath 2006/01/20 v1.3 Additional Math Commands (NCC)
+\NCC@fracrulewidth=\dimen421
+)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+ (./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 41.
+LaTeX Font Info:    Trying to load font information for OML+nxlmi on input line 41.
+ (/usr/share/texlive/texmf-dist/tex/latex/newtx/omlnxlmi.fd
+File: omlnxlmi.fd 2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
+)
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 41.
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 41.
+ (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxexa.fd
+File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
+)
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 41.
+LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 41.
+ (/usr/share/texlive/texmf-dist/tex/latex/newtx/lmsntxsy.fd
+File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
+)
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 41.
+LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 41.
+ (/usr/share/texlive/texmf-dist/tex/latex/newtx/lmxntxexx.fd
+File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
+)
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Info: Redefining \th on input line 41.
+LaTeX Info: Command `\dddot' is already robust on input line 41.
+LaTeX Info: Command `\ddddot' is already robust on input line 41.
+LaTeX Info: Redefining \microtypecontext on input line 41.
+Package microtype Info: Applying patch `item' on input line 41.
+Package microtype Info: Applying patch `toc' on input line 41.
+Package microtype Info: Applying patch `eqnum' on input line 41.
+Package microtype Info: Applying patch `footnote' on input line 41.
+Package microtype Info: Applying patch `verbatim' on input line 41.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 41.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+ (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(56.9055pt, 717.00946pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=717.00946pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count437
+\scratchdimen=\dimen422
+\scratchbox=\box168
+\nofMPsegments=\count438
+\nofMParguments=\count439
+\everyMPshowfont=\toks78
+\MPscratchCnt=\count440
+\MPscratchDim=\dimen423
+\MPnumerator=\count441
+\makeMPintoPDFobject=\count442
+\everyMPtoPDFconversion=\toks79
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+)) (/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+<<ot1.cmap>><<oml.cmap>>
+LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 41.
+ (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxmia.fd
+File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
+)
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 41.
+ (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsym.fd
+File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
+)
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 41.
+ (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsyc.fd
+File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
+)
+
+LaTeX Font Warning: Font shape `OT1/cmr/sb/n' undefined
+(Font)              using `OT1/cmr/m/n' instead on input line 41.
+
+\c@tabularnotesi=\count443
+\enitdp@tabularnotes=\count444
+\c@tabularnotes*i=\count445
+\enitdp@tabularnotes*=\count446
+\c@lstlisting=\count447
+Package hyperref Info: Link coloring ON on input line 41.
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--50
+
+ []
+
+<images/logo.png, id=45, 874.467pt x 161.403pt>
+File: images/logo.png Graphic file (type png)
+<use images/logo.png>
+Package pdftex.def Info: images/logo.png  used on input line 97.
+(pdftex.def)             Requested size: 874.46486pt x 161.4026pt.
+LaTeX Font Info:    Trying to load font information for T2A+cmss on input line 97.
+(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmss.fd
+File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmss' (encoding: T2A).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 52.51588pt, for example:
+(fancyhdr)                \setlength{\headheight}{52.51588pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-40.51588pt}.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}
+
+ <./images/logo.png>] [2] (./main.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 62369 strings out of 476041
+ 1332097 string characters out of 5793174
+ 1868388 words of memory out of 6000000
+ 81688 multiletter control sequences out of 15000+600000
+ 548667 words of font info for 144 fonts, out of 8000000 for 9000
+ 1137 hyphenation exceptions out of 8191
+ 114i,19n,131p,1261b,590s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/newtx/LibertineMathMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/LibertineMathMI7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/LibertineMathRM.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfsx0800.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
+Output written on main.pdf (2 pages, 187425 bytes).
+PDF statistics:
+ 152 PDF objects out of 1000 (max. 8388607)
+ 93 compressed objects within 1 object stream
+ 17 named destinations out of 1000 (max. 500000)
+ 37042 words of extra memory for PDF output out of 42996 (max. 10000000)
+
