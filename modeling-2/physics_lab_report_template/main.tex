@@ -1,0 +1,342 @@
+\documentclass[12pt]{article}
+\usepackage{preamble}
+\usepackage{longtable}
+\usepackage{mathtext}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{mathtools}
+\usepackage{pythonhighlight}
+\usepackage{nccmath}
+\usepackage[russian]{babel}
+\newenvironment{system}%
+{\left\lbrace\begin{array}{@{}l@{}}}%
+{\end{array}\right.}
+
+\geometry{a4paper, left=2.5cm, right=2.5cm, top=2cm, bottom=2.5cm}
+
+\pagestyle{plain}
+
+\newcommand{\placeholder}[1]{{\color{magenta}#1}}
+
+\chead{
+    \begin{minipage}{1\linewidth}
+        \begin{wrapfigure}{r}{0pt}
+            \includegraphics[height=1cm]{images/logo}
+        \end{wrapfigure}
+        {
+            \centering
+            \sffamily\scriptsize
+            \textbf{
+                Санкт-Петербургский национальный исследовательский университет \\
+                информационных технологий, механики и оптики}
+            %th3p4g
+            \vspace{2mm}
+
+            \quad\quad\quad\quad\quad\quad\ \textbf{УЧЕБНЫЙ ЦЕНТР ОБЩЕЙ ФИЗИКИ ФТФ}
+        }
+    \end{minipage}
+}
+
+
+
+\begin{document}
+    \vspace*{2\baselineskip}
+
+    \thispagestyle{fancy}
+
+    \noindent
+    \textbf{Группа} \underline{M3200} \hfill \textbf{К работе допущен} \underline{\hspace{4cm}} \\[0.5cm]
+    \textbf{Студент} \underline{Насонов Пётр Алексеевич} \hfill \textbf{Работа выполнена} \underline{\hspace{4cm}} \\[0.5cm]
+    \textbf{Преподаватель} \underline{Хвастунов Н. Н.} \hfill \textbf{Отчет принят} \underline{\hspace{4.85cm}} \\
+
+
+    \begin{center}
+    {\huge \textbf{Численное моделирование по физике. Механика}}
+
+        \smallvspace
+
+    \end{center}
+
+    \begin{center}
+        {\large \textbf{Условия. Лунолет}} \\
+    \end{center}
+
+    Инженер-электронщик лунной базы Иванов, тестируя автопилот малого лунного корабля
+    забыл отключить цепь управления двигателем. В результате двигатель включился и корабль
+    взлетел. Потеряв сознание от перегрузки, Иванов очнулся через некоторое время после
+    отключения двигателя и обнаружил, что находится на высоте H0 и движется со скоростью
+    V0у.
+    Помогите Иванову благополучно посадить корабль на Луну. Для этого необходимо
+    рассчитать на какой высоте необходимо включить двигатель, чтобы совершить безопасную
+    посадку. Вертикальная посадочная скорость не должна превышать 3 м/c
+
+    \large \textbf{Используемые константы} \normalsize
+
+    Направив ось $Oy$ наверх.
+
+    \normalsize
+    \begin{enumerate}
+        \item Масса аппарата: $M = 2150$ кг
+        \item Масса топлива: $m = 150$ кг
+        \item Ускорение свободного падения на луне: $g_{\text{л}} = -1.62$ $\text{м}/\text{с}^2$
+        \item Скорость истечения продуктов сгорания из реактивного двигателя: $V_{p} = 3660$ $\text{м}/\text{с}$
+        \item Расход топлива: $\frac{dm}{dt} = 15$ $\text{кг}/\text{с}$ 
+        \item Начальная высота для варианта 11: $H_0 = 1400$ м
+        \item Начальная скорость для варианта 11: $V_{0y} = 47$ м/с
+    \end{enumerate}
+    
+    Чтобы было привычнее и легче определим систему коориднат с одной осью $Oy$ которая направлена вверх.
+    Началом системы отсчета системы координат будет поверхность луны, которая является 
+    плосколстью в нашей задаче. Пусть момент в который мы включим двигатель будет называться $t_0$, 
+    а момент в который мы будем на высоте 0 после включения двигателя (во время посадки) - 
+    $t_1$.
+
+    Так или иначе нам интересно ускорение, все остальное можно выразить через формулы.
+    Ускорение до момента $t_0$ равно $g$л, т.к. кроме силы притяжение ничего не действует, 
+    двигатель выключен. Но после у нас в силу вступает уравнение Мещерского:
+
+    $$m(t) \frac{dv}{dt} = \Sigma F + V_p \frac{dm}{dt}$$
+    $$m(t) \frac{dv}{dt} = m(t)g_{\text{л}} + V_p \frac{dm}{dt}$$
+    Ускорение как мы знаем это $\frac{dv}{dt}$ (т.е. выражая из уравнения выше): $a(t) = \frac{dv}{dt} = g_{\text{л}} + \frac{V_p \frac{dm}{dt}}{m(t)}$
+
+    Осталось понять как меняется масса. Т.к. топливо сжигается и есть масса корабля и пилота 
+    получаем: $m(t) = M + m - \frac{dm}{dt} (t-t_0)$. Конечно, последнее слагаемое не 
+    может превышать $m$. Т.е. не больше 10 (150 делим на 15) секунд может уменьшаться масса, потом она опять станет неизменяемой
+    и двигатель израсходуя все топливо будет не работать.
+
+    Получается что
+
+
+    \begin{equation}    
+        a(t)=
+        \begin{system}
+        g_{\text{л}} , \quad t\leq t_0\\
+        g_{\text{л}} + \frac{V_p \frac{dm}{dt}}{m(t)}, \quad t > t_0
+        \end{system}
+    \end{equation}
+
+    Зная ускорение можно найти скорость и высоту через интегралы:
+
+    \begin{equation}
+        V(t)=
+        \begin{system}
+        V_{0y} + g_{\text{л}}t , \quad t \leq t_0\\
+        V(t_0) + \int_{t_0}^{t} a(z) dz, \quad t > t_0
+        \end{system}
+    \end{equation}
+
+    \begin{equation}
+        H(t)=
+        \begin{system}
+        H_0 + V_{0y}t + 0.5 g_{\text{л}}t^2, \quad t \leq t_0\\
+        H(t_0) + \int_{t_0}^{t} V(z) dz, \quad t > t_0
+        \end{system}
+    \end{equation}
+
+    Также нужно сказать что все величины в задачах считаются в системе СИ в базовых величинах
+    (метр, ...)
+
+    Таким образом нужно построить графики заданных функций и найти $t_0$, $t_1$. Про момент $t_0$
+    нечего сказать, разве что он не отрицательный. Про момент $t_1$ можно сказать что это момент посадки.
+    А для него есть пара условий. Обозначим их для постановки задачи:
+    \begin{enumerate}
+        \item $H(t_1) = 0$
+        \item $0 \leq t_0 \leq t_1 \leq t_0 + 10$
+        \item $-3 \leq V(t_1) \leq 0$ (скорость отрицательная т.к. луноход садится и скорость вниз,
+        а ось у нас направлена наверх)
+    \end{enumerate}
+
+    С помощью языка программирования Python3 занесем данные функции и подберем подходящее 
+    $t_0$ под условия выше. Функция интеграла будет вычисляться с помощью модуля
+    scipy.integrate функцией quad для высокоточного приблизительного расчета интегралов функций.
+    Теперь опишем как будем искать значение $t_0$: сначала пойдем от нуля. Если возьмем что то 
+    довольно маленькое, то у нас заведется двигатель когда мы даже не близко к земле.
+    Понять что мы не близко к земле и мы ни разу не пересекали нашу плокскость луны можно
+    посмотрев на график $H(t)$. Таким образом можно подобрать целую часть (просто перебирая):
+    100 - много, построенный график пересекает ось дважды, т.е. как будто уходит под землю
+    наш луноход. 50 мало. Луноход не долетает еще пару сотен метров до земли. Так можно
+    подобрать значение 77. Дальше будем делать следующее: будем перебирать $t_0$
+    в интервале от 77 до какого то значения. Пусть там будет 85. Потом будем смотреть на сколько 
+    близко у нас выполнены условия: в точке $t_1$ скорость от -3 до 0. Но для начала возьмем этот
+    интервал к примеру в 10 раз больше: от -30 до 10. Также с растоянием до поверхности
+    в точке $t_1$: пусть сначала оно по модулю будет не превосходить 10 метров, потом меньше и так далее.
+    потом 5, потом 1, потом еще меньше. А в промежуточных запусках мы будем смотреть
+    какие числа в основном попадаются подходящие под критерии $t_0$. будем
+    уменьшать интервал и разброс значений. Таким образом с какой то сколь угодно нужной
+    нам точностью найдем $t_0$. При знании $t_0$ у нас однозначно задаются функции и мы можем
+    также приблизительно с нужной нам точностью найти точку $t_1$. Таким образом итерируясь
+    будем уменьшать возможный набор значений. Это все работает потому что с одной стороны 
+    слишком рано начнем и заведем двигатель - не хватит топлива для торможения и разобъемся,
+    с другой стороны - если слишком поздно, то уже разбились. Т.е. в этом смысле есть монотонность 
+    и данные рассуждения уместны. \\
+
+    Таким образом полученные величины: \\
+    $t_0 = 77.9731$с $H(t_0) = 140.09816$м \\
+    $t_1 = 81.39377$с $V(t_1) = -2.28345$ м/с
+
+    \large \textbf{Графики} \normalsize
+
+    \includegraphics[scale=0.23]{acceleration.png}
+
+    \includegraphics[scale=0.23]{speed.png}
+
+    \includegraphics[scale=0.23]{height.png}
+
+    Две красные точки на графике: $t_0$ и $t_1$.
+
+    \large \textbf{Результаты} \normalsize
+
+    Предельная перегрузка $a_{max}$ при маневре (посадке) равна 22.794 $\text{м}/\text{с}^2$.
+
+    Высота на которой необходимо включить двигатель, чтобы совершить безопасную
+    посадку: 140.1м.
+
+    Значение вертикальной скорости на высоте 0: -2.28345 м/с
+
+    \large \textbf{Код для нахождения моментов времени} \normalsize
+
+    \begin{python}
+from scipy.integrate import quad
+import numpy as np
+
+t0 = 77.97
+while t0 < 77.98:
+    t0 += 0.00005
+    vp = 3660
+    dmdt = 15
+    gl = -1.62
+    M = 2150
+    mass = 150
+    V0y=47
+    H0 = 1400
+    
+    def m(t):
+        res = M + mass
+        if t<=t0:
+            return res
+        else:
+            return res - dmdt*(t-t0)
+    
+    def a(t):
+        if t<=t0:
+            return gl
+        else:
+            return gl + vp*dmdt/m(t)
+    
+    def V(t):
+        if t<=t0:
+            return V0y + gl*t
+        else:
+            result, error = quad(a, t0, t)
+            return V(t0) + result
+            
+    def H(t):
+        if t<=t0:
+            return H0 + V0y*t + gl*t*t/2
+        else:
+            result, error = quad(V, t0, t)
+            return H(t0) + result
+    
+    
+    x = np.linspace(t0-10, t0+10, 20000)
+    
+    speed = [V(i) for i in x]
+    acceleration = [a(i) for i in x]
+    height = [H(i) for i in x]
+    
+    index_t1 = 0
+    for i in range(len(x)):
+        if abs(height[i]) < abs(height[index_t1]):
+            index_t1 = i
+    
+    #print(x[index_t1], "diff with thero: ", abs(height[index_t1]))
+    #print(x[index_t1], "speed: ", speed[index_t1])
+    #print(t0, "<", x[index_t1])
+    if (t0 < x[index_t1]) and (speed[index_t1] <= 0) and (speed[index_t1] >= -3) and abs(height[index_t1]) <= 0.0001:
+        print(x[index_t1], "diff with thero: ", abs(height[index_t1]))
+        print(x[index_t1], "speed: ", speed[index_t1])
+        print(t0, "<", x[index_t1])
+        
+        
+
+print('end')
+        \end{python}
+    
+    \large \textbf{Код для построения графиков} \normalsize
+
+\begin{python}
+import matplotlib.pyplot as plt
+import numpy as np
+t0 = 77.9731
+vp = 3660
+dmdt = 15
+gl = -1.62
+M = 2150
+mass = 150
+V0y=47
+H0 = 1400
+
+def m(t):
+    res = M + mass
+    if t<=t0:
+        return res
+    else:
+        return res - dmdt*(t-t0)
+
+def a(t):
+    if t<=t0:
+        return gl
+    else:
+        return gl + vp*dmdt/m(t)
+
+def V(t):
+    if t<=t0:
+        return V0y + gl*t
+    else:
+        result, error = quad(a, t0, t)
+        return V(t0) + result
+        
+def H(t):
+    if t<=t0:
+        return H0 + V0y*t + gl*t*t/2
+    else:
+        result, error = quad(V, t0, t)
+        return H(t0) + result
+
+
+x = np.linspace(0, 81.39377, 200000)
+
+speed = [V(i) for i in x]
+acceleration = [a(i) for i in x]
+height = [H(i) for i in x]
+
+index_t1 = 0
+for i in range(len(x)):
+    if abs(height[i]) < abs(height[index_t1]):
+        index_t1 = i
+index_t0 = 0
+for i in range(len(x)):
+    if abs(x[i]-t0) < abs(x[index_t0]-t0):
+        index_t0 = i
+print(x[index_t0])
+
+print(x[index_t1], "diff with thero: ", abs(height[index_t1]))
+print(x[index_t1], "speed: ", speed[index_t1])
+print(height[index_t0])
+
+graphic = acceleration
+plt.plot(x, graphic)
+#eshe oboznacheniya osey
+plt.scatter(x[index_t1], graphic[index_t1], color='red')
+plt.scatter(x[index_t0], graphic[index_t0], color='red')
+plt.grid(True)
+plt.show()
+
+#analogichno eshe dva graphica
+
+
+print("limit acceleration", acceleration[index_t1])
+\end{python}
+
+
+\end{document}
