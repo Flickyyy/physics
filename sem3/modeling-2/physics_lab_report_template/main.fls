@@ -1,8 +1,8 @@
-PWD /home/flicky/itmo/physics/modeling-2/physics_lab_report_template
+PWD /home/flicky/itmo/physics/sem3/modeling-2/physics_lab_report_template
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/flicky/itmo/physics/modeling-2/physics_lab_report_template/main.tex
+INPUT /home/flicky/itmo/physics/sem3/modeling-2/physics_lab_report_template/main.tex
 OUTPUT main.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls

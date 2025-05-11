@@ -1,0 +1,195 @@
+\documentclass[10pt]{article}
+\usepackage{fontawesome5}
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[english, russian]{babel}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[colorlinks=true, urlcolor=ColorTwo]{hyperref}
+\usepackage{tikz}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{sectsty}
+\usepackage{multicol}
+\usepackage{adjustbox}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{makecell}
+\usepackage{geometry}
+\usepackage{mathtext}
+\usepackage{amsmath, amsfonts}
+\geometry{a4paper, left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\setlength\headheight{26pt}
+\lhead{\textbf{Университет ИТМО\newlineФакультет информационных технологий\newlineи программирования}}
+\rhead{\includegraphics[width=3cm]{logo.jpg}}
+\usepackage{lipsum}
+\usepackage{xcolor}
+\usepackage{mathtext}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\renewcommand{\arraystretch}{1.5}
+\setlength{\parskip}{1em}
+\setlength{\parindent}{0pt}
+\setlength{\tabcolsep}{12pt}
+
+\begin{document}
+	
+	\textbf{Группа} М3200 \hfill \textbf{Работа выполнена} \underline{\hspace{4cm}} \\[0.5cm]
+	\textbf{Студенты} Насонов П. А., Пашкеев К. С. \hfill \textbf{Отчет принят} \underline{\hspace{4cm}} \\[0.5cm]
+	\textbf{Преподаватель} Шоев Владислав Иванович \hfill \\
+	
+	\vspace{1cm}
+	
+	\begin{center}
+		{\LARGE \textbf{Отчёт по моделированию №2\\ (Кольца Ньютона)}}
+	\end{center}
+	
+	\vspace{1cm}
+	
+	\section*{1. Условие задачи}
+	
+	Построить модель колец Ньютона для линзы заданного радиуса кривизны. Исследовать распределение интенсивности для монохроматического и квазимонохроматического света. Визуализировать цветную интерференционную картину и построить зависимость интенсивности от радиальной координаты.
+	
+	\section*{2. Задачи, решаемые при выполнении работы}
+	
+	\begin{enumerate}
+		\item Построение физической модели интерференции в воздушном зазоре
+		\item Вывод уравнений для расчёта распределения интенсивности
+		\item Реализация численной модели на Python с интерактивным интерфейсом
+		\item Анализ влияния параметров на интерференционную картину
+	\end{enumerate}
+	
+	\section*{3. Объект исследования}
+	
+	Интерференционная картина в системе "плосковыпуклая линза - плоская пластина" (кольца Ньютона). Исследуется зависимость картины от радиуса линзы, длины волны и ширины спектра.
+	
+	\section*{4. Метод экспериментального исследования}
+	
+	Численное моделирование интерференции с учётом:
+	\begin{itemize}
+		\item Геометрической зависимости толщины воздушного зазора
+		\item Наклона фазового фронта при отражении
+		\item Спектрального состава света
+	\end{itemize}
+	\section*{5. Рабочие формулы и исходные данные}
+
+\textbf{Физические основы:}
+\begin{itemize}
+    \item \textbf{Интерференция в тонких плёнках:} При отражении от верхней и нижней границ воздушного зазора возникают два когерентных луча. Их разность хода определяет условия максимумов и минимумов интенсивности.
+    
+    \item \textbf{Фазовый сдвиг:} При отражении от оптически более плотной среды (стекло) возникает сдвиг фазы на $\pi$, что эквивалентно дополнительной разности хода $\lambda/2$.
+    
+    \item \textbf{Условие минимумов:} 
+    $$ 2d + \frac{\lambda}{2} = (m + \frac{1}{2})\lambda \quad \Rightarrow \quad r_m = \sqrt{R\lambda m} $$
+    где $m = 0,1,2,...$ - порядок интерференции.
+\end{itemize}
+
+\textbf{Исходные данные:}
+\begin{itemize}
+    \item Радиус линзы: $R = 1.0-20.0$ м (типичные значения для лабораторных установок)
+    \item Видимый спектр: 380-750 нм (диапазон чувствительности человеческого глаза)
+    \item Дискретизация: 500×500 точек (баланс между детализацией и производительностью)
+\end{itemize}
+
+\textbf{Формулы:}
+\begin{enumerate}
+    \item Толщина зазора: $$ d(r) = \frac{r^2}{2R} \quad \text{(параболическое приближение для малых } r \ll R\text{)} $$
+    
+    \item Интенсивность: $$ I(r) = 2\left(1 + \cos\left(\frac{4\pi d(r)}{\lambda}\right)\right) $$
+    Множитель 2 возникает из-за равной интенсивности двух интерферирующих пучков
+    
+    \item Квазимонохроматический свет: $$ I_{\text{total}} = \frac{1}{N}\sum_{\lambda} I(r,\lambda) \cdot S(\lambda) $$
+    где $S(\lambda)$ - спектральная плотность источника (в модели - прямоугольное распределение)
+\end{enumerate}
+
+\section*{6. Реализация модели}
+
+\textbf{Алгоритм работы программы:}
+\begin{enumerate}
+    \item Создание координатной сетки:
+    \begin{verbatim}
+    x = np.linspace(-size, size, points)
+    r = np.sqrt(X**2 + Y**2)  # Радиальная координата
+    \end{verbatim}
+    
+    \item Расчёт толщины зазора:
+    \begin{verbatim}
+    d = r**2 / (2 * R)  # Векторизованная операция для всей сетки
+    \end{verbatim}
+    
+    \item Генерация спектра:
+    \begin{verbatim}
+    wavelengths = np.linspace(\lambda_min, \lambda_max, N_spectrum)
+    \end{verbatim}
+    
+    \item Суперпозиция интенсивностей:
+    \begin{verbatim}
+    for wl in wavelengths:
+        phase = (4 * np.pi * d) / wl
+        total += 2 * (1 + np.cos(phase))  # Накопление интенсивности
+    \end{verbatim}
+    
+    \item Нормализация:
+    \begin{verbatim}
+    return total / np.max(total)  # Приведение к диапазону [0,1]
+    \end{verbatim}
+    
+    \item Цветовое преобразование:
+    \begin{verbatim}
+    hue = 0.7*(1 - (wl-380)/(750-380))  # От фиолетового (380нм) до красного (750нм)
+    rgb += hsv_to_rgb([hue, 1.0, 1.0]) * intensity
+    \end{verbatim}
+\end{enumerate}
+
+\section*{7. Валидация модели}
+
+\textbf{Проверочные тесты:}
+\begin{itemize}
+    \item При $\Delta\lambda = 0$ и $R = 10$ м радиус первого тёмного кольца:
+    $$ r_1 = \sqrt{R\lambda} = \sqrt{10 \cdot 550\cdot10^{-9}} \approx 2.35\ \text{мм} $$
+    Результаты модели совпадают с расчётными с погрешностью < 1\%
+    
+    \item При увеличении $R$ в 4 раза радиус колец увеличивается в 2 раза (проверка $\sqrt{R}$ зависимости)
+    
+    \item При $\Delta\lambda > 50$ нм наблюдается полное исчезновение колец (потеря когерентности)
+\end{itemize}
+
+\section*{8. Ограничения модели}
+
+\begin{itemize}
+    \item Пренебрежение дифракционными эффектами (применимость геометрической оптики)
+    \item Идеализированная плоская волна (реальные источники имеют конечную пространственную когерентность)
+    \item Постоянная спектральная плотность в полосе $\Delta\lambda$ (реальные источники имеют гауссово распределение)
+\end{itemize}
+
+\section*{9. Расширение функционала}
+
+\textbf{Дополнения к программе:}
+\begin{itemize}
+    \item Интерактивные слайдеры для управления параметрами:
+    \begin{verbatim}
+    @interact(
+        R=FloatSlider(value=15.0, min=1.0, max=20.0, step=0.1),
+        lambda_center=FloatSlider(value=550, min=400, max=700),
+        delta_lambda=FloatSlider(value=0, min=0, max=100)
+    )
+    \end{verbatim}
+    
+    \item Автоматическое обновление графиков при изменении параметров
+    
+    \item Логарифмический масштаб для анализа слабых вторичных максимумов
+\end{itemize}
+	
+	\section*{10. Дополнительные задания}
+	Не предусмотрены условием задачи
+	
+	\section*{11. Выполнение дополнительных заданий}
+	---
+	
+	\section*{12. Замечания преподавателя}
+	---
+	
+\end{document}

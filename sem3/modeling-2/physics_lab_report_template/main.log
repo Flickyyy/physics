@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.11.18)  15 DEC 2024 18:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.5.10)  11 MAY 2025 20:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/flicky/itmo/physics/modeling-2/physics_lab_report_template/main.tex
-(/home/flicky/itmo/physics/modeling-2/physics_lab_report_template/main.tex
+**/home/flicky/itmo/physics/sem3/modeling-2/physics_lab_report_template/main.tex
+(/home/flicky/itmo/physics/sem3/modeling-2/physics_lab_report_template/main.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -240,7 +240,7 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 Package: babel 2023/02/13 3.86 The Babel package
 \babel@savecnt=\count193
 \U@D=\dimen141
-\l@unhyphenated=\language85
+\l@unhyphenated=\language86
  (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count194
@@ -249,9 +249,9 @@ Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
 Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language21). Reported on input line 105.
+(babel)             (\language72). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language21). Reported on input line 108.
+(babel)             (\language72). Reported on input line 108.
 ) (/usr/share/texlive/texmf-dist/tex/generic/babel-russian/russianb.ldf
 File: russianb.ldf 2021/01/10 1.3m Russian support for the Babel system
 Language: russian 2020/09/09 1.3k Russian support for the Babel system
@@ -3271,13 +3271,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 63287 strings out of 476041
- 1344250 string characters out of 5793173
- 2023152 words of memory out of 6000000
- 82539 multiletter control sequences out of 15000+600000
+ 63287 strings out of 476034
+ 1344265 string characters out of 5792864
+ 2023187 words of memory out of 6000000
+ 82540 multiletter control sequences out of 15000+600000
  573918 words of font info for 212 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 114i,19n,131p,1264b,1733s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 114i,19n,131p,1269b,1733s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/newtx/LibertineMathMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/LibertineMathMI7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/LibertineMathRM.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfst1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfsx0800.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
 Output written on main.pdf (3 pages, 310882 bytes).
 PDF statistics:
