@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1746988986.14687 "/home/flicky/itmo/physics/sem4/modeling2/main.tex" "main.pdf" "main" 1746988987.0377 0
+["pdflatex"] 1748198762.21754 "/home/flicky/itmo/physics/sem4/modeling2/main.tex" "main.pdf" "main" 1748198764.20733 0
   "/home/flicky/.texlive2023/texmf-var/fonts/tfm/lh/lh-t2a/labx1000.tfm" 1746983747.69364 3300 6abb8e321227ead2a8e929e5abc72bd3 ""
   "/home/flicky/.texlive2023/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm" 1746983699.97471 3304 6a543c07045572737981351171e0505e ""
   "/home/flicky/.texlive2023/texmf-var/fonts/tfm/lh/lh-t2a/labx1728.tfm" 1746983751.39196 3312 d199be9bd555944e2403193d58a0256a ""
@@ -9,7 +9,7 @@
   "/home/flicky/.texlive2023/texmf-var/fonts/tfm/lh/lh-t2a/larm1440.tfm" 1746983698.23476 3256 3daaa33cf35cf3f354983aa3214ecd7f ""
   "/home/flicky/.texlive2023/texmf-var/fonts/tfm/lh/lh-t2a/larm1728.tfm" 1746983749.71726 3252 92d08740ce00199d6cf9ff4aaada81d1 ""
   "/home/flicky/.texlive2023/texmf-var/fonts/tfm/lh/lh-t2a/latt1000.tfm" 1746983714.02376 1272 55f67101730a20777decd892fb4b4e3e ""
-  "/home/flicky/itmo/physics/sem4/modeling2/main.tex" 1746988985.88808 9985 04ba300600a69e8bb92b82e5abc0dc1e ""
+  "/home/flicky/itmo/physics/sem4/modeling2/main.tex" 1748198764.04673 14434 fd12db8e1f8b04cc61dae26382291837 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc" 1136849721 3141 82d5616418ed8d5de703b3951bedecb4 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -201,9 +201,10 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1746887644.91638 4547809 72a019b3ea2e5a9ca986a536dc67eb1c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1746887446 7759954 0ffd348207b2c3492930e0f7b1301842 ""
   "logo.jpg" 1746460507.04478 53014 6965514c61fe284cc6533abc90597884 ""
-  "main.aux" 1746988986.9493 691 4ac923bf4314430d3fb37bfdcb6ce171 "pdflatex"
-  "main.out" 1746988986.85437 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1746988985.88808 9985 04ba300600a69e8bb92b82e5abc0dc1e ""
+  "main.aux" 1748198764.11653 1451 ccb6b931280826dfe6fbfa3051e2afb9 "pdflatex"
+  "main.out" 1748198762.91419 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1748198764.04673 14434 fd12db8e1f8b04cc61dae26382291837 ""
+  "newton_rings_comparison.png" 1748196129.99917 4953109 40e217fa0ac071c41b92c081a373840f ""
   (generated)
   "main.aux"
   "main.log"

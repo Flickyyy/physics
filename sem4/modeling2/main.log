@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.5.10)  11 MAY 2025 21:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.5.10)  25 MAY 2025 21:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1055,7 +1055,7 @@ Overfull \hbox (10.64825pt too wide) in paragraph at lines 144--144
 
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 179.
+Package pdftex.def Info: logo.jpg  used on input line 175.
 (pdftex.def)             Requested size: 85.35826pt x 33.64581pt.
 
 Package fancyhdr Warning: \headheight is too small (26.0pt): 
@@ -1065,9 +1065,14 @@ Package fancyhdr Warning: \headheight is too small (26.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.24585pt}.
 
 [3]
+<newton_rings_comparison.png, id=57, 972.2724pt x 851.8224pt>
+File: newton_rings_comparison.png Graphic file (type png)
+<use newton_rings_comparison.png>
+Package pdftex.def Info: newton_rings_comparison.png  used on input line 182.
+(pdftex.def)             Requested size: 455.24411pt x 398.84885pt.
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 195.
+Package pdftex.def Info: logo.jpg  used on input line 188.
 (pdftex.def)             Requested size: 85.35826pt x 33.64581pt.
 
 
@@ -1077,7 +1082,20 @@ Package fancyhdr Warning: \headheight is too small (26.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-11.24585pt}.
 
-[4] (./main.aux)
+[4 <./newton_rings_comparison.png>]
+File: logo.jpg Graphic file (type jpg)
+<use logo.jpg>
+Package pdftex.def Info: logo.jpg  used on input line 224.
+(pdftex.def)             Requested size: 85.35826pt x 33.64581pt.
+
+
+Package fancyhdr Warning: \headheight is too small (26.0pt): 
+(fancyhdr)                Make it at least 37.24585pt, for example:
+(fancyhdr)                \setlength{\headheight}{37.24585pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-11.24585pt}.
+
+[5] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1085,18 +1103,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28153 strings out of 476034
- 530815 string characters out of 5792864
+ 28169 strings out of 476034
+ 531112 string characters out of 5792864
  1863388 words of memory out of 6000000
- 48093 multiletter control sequences out of 15000+600000
+ 48101 multiletter control sequences out of 15000+600000
  521105 words of font info for 50 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 102i,15n,104p,598b,735s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,16n,104p,850b,735s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on main.pdf (4 pages, 262904 bytes).
+Output written on main.pdf (5 pages, 4565878 bytes).
 PDF statistics:
- 129 PDF objects out of 1000 (max. 8388607)
- 94 compressed objects within 1 object stream
- 30 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 143 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
