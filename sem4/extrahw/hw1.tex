@@ -1,0 +1,176 @@
+\documentclass[10pt]{article}
+\usepackage{fontawesome5}
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[english, russian]{babel}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[colorlinks=true, urlcolor=ColorTwo]{hyperref}
+\usepackage{tikz}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{sectsty}
+\usepackage{multicol}
+\usepackage{adjustbox}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{makecell}
+\usepackage{geometry}
+\usepackage{mathtext}
+\usepackage{amsmath, amsfonts}
+\geometry{a4paper, left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\setlength\headheight{26pt}
+\lhead{\textbf{Университет ИТМО\newlineФакультет информационных технологий\newlineи программирования}}
+\rhead{\includegraphics[width=3cm]{logo.jpg}}
+\usepackage{lipsum}
+\usepackage{xcolor}
+\usepackage{mathtext}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\renewcommand{\arraystretch}{1.5}
+\setlength{\parskip}{1em}
+\setlength{\parindent}{0pt}
+\setlength{\tabcolsep}{12pt}
+
+\begin{document}
+	
+	\textbf{Группа} М3200 \hfill\\[0.5cm]
+	\textbf{Студент} Насонов Пётр Алексеевич \hfill  \\[0.5cm]
+	\textbf{Преподаватель} Герт Антон Владимирович \hfill \\
+	
+	\vspace{1cm}
+	
+	\begin{center}
+		{\LARGE \textbf{Решение задач ДЗ 1}}
+	\end{center}
+	
+	\vspace{1cm}
+
+\textbf{Задача 1.} Электрон движется прямолинейно и равномерно со скоростью $v=3 \cdot 10^5$ м/с. Найти индукцию $B$ поля, создаваемого электроном в точке, находящейся на расстоянии от него 10 \AA~и лежащей на перпендикуляре, проходящем через мгновенное положение электрона.
+
+\textbf{Решение:}
+Для движущегося заряда индукция магнитного поля определяется по закону Био-Савара-Лапласа:
+
+$$B = \frac{\mu_0}{4\pi} \cdot \frac{q \cdot v \sin\alpha}{r^2}$$
+
+Здесь $\mu_0 = 4\pi \cdot 10^{-7}$ Гн/м, $q$ - заряд, $v$ - скорость, $r$ - расстояние.
+Так как точка на перпендикуляре, $\sin\alpha = 1$.
+
+Заряд электрона $q = e = 1,6 \cdot 10^{-19}$ Кл.
+Скорость $v = 3 \cdot 10^5$ м/с.
+Расстояние $r = 10$ \AA $ = 10^{-9}$ м.
+
+Вычисляем:
+$$B = \frac{4\pi \cdot 10^{-7}}{4\pi} \cdot \frac{1,6 \cdot 10^{-19} \cdot 3 \cdot 10^5}{(10^{-9})^2} = 10^{-7} \cdot \frac{4,8 \cdot 10^{-14}}{10^{-18}} = 4,8 \cdot 10^{-3} \text{ Тл}$$
+
+\textbf{Ответ:} $B = 4,8 \cdot 10^{-3}$ Тл.
+
+\vspace{0.8cm}
+
+\textbf{Задача 2.} По круглому прямому проводу радиуса $R$ течет ток одинаковой по всему сечению плотности $j$. Найти выражение для напряженности поля $H$ в точке, положение которой относительно оси провода определяется перпендикулярным к этой оси радиус-вектором $r$. Рассмотреть случаи, когда точка лежит внутри и вне провода.
+
+\textbf{Решение:} \\
+Используем теорему о циркуляции магнитного поля (закон полного тока):
+$$\oint\limits_L \vec{H} \cdot d\vec{l} = I$$
+
+Из симметрии задачи линии поля - концентрические окружности вокруг оси провода.
+
+Для точки внутри провода ($r < R$):
+
+Ток, протекающий внутри окружности радиуса $r$:
+$$I_r = j \cdot \pi r^2$$
+
+Применяем закон полного тока:
+$$H \cdot 2\pi r = j \cdot \pi r^2$$
+
+Получаем: $H = \frac{j \cdot r}{2}$
+
+Для точки вне провода ($r > R$): 
+
+Через окружность проходит весь ток:
+$$I = j \cdot \pi R^2$$
+
+По закону полного тока:
+$$H \cdot 2\pi r = j \cdot \pi R^2$$
+
+Отсюда: $H = \frac{j \cdot R^2}{2r}$
+
+\textbf{Ответ:}
+\begin{align*}
+H = \begin{cases}
+\frac{j \cdot r}{2}, & \text{если } r < R \\
+\frac{j \cdot R^2}{2r}, & \text{если } r > R
+\end{cases}
+\end{align*}
+
+\vspace{0.8cm}
+
+\textbf{Задача 3.} Магнитный момент кругового контура с током $p_m = 1,00$ А$\cdot$м$^2$. Радиус контура 10,0 см. Найти индукцию $B$ в центре контура.
+
+\textbf{Решение:} \\
+Магнитный момент контура связан с током и площадью соотношением:
+$$p_m = I \cdot S = I \cdot \pi R^2$$
+
+Выразим ток:
+$$I = \frac{p_m}{\pi R^2} = \frac{1,00}{\pi \cdot 0,01} \approx 31,8 \text{ А}$$
+
+Индукция в центре кругового тока определяется формулой: 
+$$B = \frac{\mu_0 I}{2R}$$
+
+Подставим числа:
+$$B = \frac{4\pi \cdot 10^{-7} \cdot 31,8}{2 \cdot 0,10} \approx 2,0 \cdot 10^{-4} \text{ Тл}$$
+
+\textbf{Ответ:} $B \approx 2,0 \cdot 10^{-4}$ Тл.
+
+\vspace{0.8cm}
+
+\textbf{Задача 4.} Две небольшие одинаковые катушки расположены так, что их оси лежат на одной прямой. Расстояние между катушками 2,00 м значительно превышает их линейные размеры. Число витков каждой катушки $N = 150$, радиус витков $r=50$ мм. С какой силой взаимодействуют катушки, когда по ним течет одинаковый ток 1 А?
+
+\textbf{Решение:}
+Катушки на большом расстоянии можно рассматривать как магнитные диполи. 
+Магнитный момент одной катушки:
+$$p_m = N \cdot I \cdot \pi r^2 = 150 \cdot 1 \cdot \pi \cdot 0,0025 \approx 1,18 \text{ А}\cdot\text{м}^2$$
+
+Сила взаимодействия диполей на одной оси:
+$$F = \frac{3\mu_0 p_{m1} p_{m2}}{2\pi d^4}$$
+
+Подставляем значения (оба момента одинаковы):
+$$F = \frac{3 \cdot 4\pi \cdot 10^{-7} \cdot 1,18^2}{2\pi \cdot 16} = \frac{12\pi \cdot 10^{-7} \cdot 1,39}{2\pi \cdot 16} \approx 5,2 \cdot 10^{-8} \text{ Н}$$
+
+\textbf{Ответ:} $F \approx 5,2 \cdot 10^{-8}$ Н.
+
+\vspace{0.8cm}
+
+\textbf{Задача 5.} На железном сердечнике в виде тора диаметра 500 мм имеется обмотка с числом витков $N=1000$. В сердечнике сделана поперечная прорезь, в результате чего образовался воздушный зазор ширины $\delta=1,00$ мм. При силе тока в обмотке 0,85 А напряженность поля в зазоре 600 кА/м. Определить магнитную проницаемость $\mu$ железа при этих условиях. Рассеянием поля у краев зазора пренебречь.
+
+\textbf{Решение:}
+Средний радиус тора $R = 250$ мм, длина средней линии:
+$$l = 2\pi R = 2\pi \cdot 0,25 \approx 1,57 \text{ м}$$
+
+По закону полного тока:
+$$N \cdot I = H_{\text{возд}} \cdot \delta + H_{\text{жел}} \cdot (l-\delta)$$
+
+Подставим значения:
+\begin{align*}
+1000 \cdot 0,85 &= 6 \cdot 10^5 \cdot 0,001 + H_{\text{жел}} \cdot 1,569 \\
+850 &= 600 + H_{\text{жел}} \cdot 1,569 \\
+\end{align*}
+
+Отсюда находим напряженность поля в железе:
+$$H_{\text{жел}} = \frac{850 - 600}{1,569} \approx 159 \text{ А/м}$$
+
+На границе двух сред магнитная индукция сохраняется:
+$$B_{\text{жел}} = B_{\text{возд}}$$
+
+То есть:
+$$\mu_0 \mu_r H_{\text{жел}} = \mu_0 H_{\text{возд}}$$
+
+Отсюда относительная магнитная проницаемость железа:
+$$\mu_r = \frac{H_{\text{возд}}}{H_{\text{жел}}} = \frac{6 \cdot 10^5}{159} \approx 3770$$
+
+\textbf{Ответ:} Относительная магнитная проницаемость железа $\mu_r \approx 3770$.
+
+\end{document}

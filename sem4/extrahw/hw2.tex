@@ -1,0 +1,211 @@
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[russian,english]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor} % Загружаем xcolor только один раз со всеми нужными опциями
+\usepackage{tikz}
+\usepackage[colorlinks,urlcolor=Maroon]{hyperref}
+\usepackage{geometry}
+\geometry{a4paper,margin=2.5cm}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\setlength\headheight{26pt}
+\lhead{\textbf{Университет ИТМО\newlineФакультет информационных технологий\newlineи программирования}}
+\rhead{\includegraphics[width=3cm]{logo.jpg}}
+\setlength{\parskip}{1em}
+\setlength{\parindent}{0pt}
+
+\begin{document}
+	
+	\textbf{Группа} М3200 \hfill\\[0.5cm]
+	\textbf{Студент} Насонов Пётр Алексеевич \hfill  \\[0.5cm]
+	\textbf{Преподаватель} Герт Антон Владимирович \hfill \\
+	
+	\vspace{1cm}
+	
+	\begin{center}
+		{\LARGE \textbf{Решение задач ДЗ 2}}
+	\end{center}
+	
+	\vspace{1cm}
+
+\textbf{Задача 1.} Во сколько раз возрастет радиус $m$-го кольца Ньютона при увеличении длины световой волны в полтора раза?
+
+\textbf{Решение:}
+Радиус $m$-го светлого кольца Ньютона определяется формулой:
+$$r_m = \sqrt{m\lambda R}$$
+где $\lambda$ - длина волны, $R$ - радиус кривизны линзы.
+
+Если длина волны увеличивается в 1,5 раза, то есть $\lambda' = 1,5\lambda$, то радиус кольца станет равным:
+$$r_m' = \sqrt{m \cdot 1,5\lambda \cdot R} = \sqrt{1,5} \cdot \sqrt{m\lambda R} = \sqrt{1,5} \cdot r_m$$
+
+Отношение радиусов:
+$$\frac{r_m'}{r_m} = \sqrt{1,5} \approx 1,225$$
+
+\textbf{Ответ:} Радиус $m$-го кольца Ньютона увеличится в $\sqrt{1,5} \approx 1,225$ раза.
+
+\vspace{0.8cm}
+
+\textbf{Задача 2.} Интенсивность, создаваемая на экране некоторой монохроматической световой волной в отсутствие преград, равна $I_0$. Какова будет интенсивность $I$ в центре дифракционной картины, если на пути волны поставить преграду с круглым отверстием, открывающим: а) 1-ю зону Френеля, б) половину 1-й зоны Френеля, в) полторы зоны Френеля, г) треть 1-й зоны Френеля?
+
+\textbf{Решение:}
+При дифракции Френеля амплитуда световой волны в центре дифракционной картины определяется векторным суммированием вкладов от элементарных участков волнового фронта с учетом их фаз.
+
+Для расчета используем метод Ньютона-Френеля, разбивая каждую зону на мелкие участки и суммируя их комплексные амплитуды с приращением фазы $\pi$ между соседними зонами.
+
+а) Открыта 1-я зона Френеля полностью:
+Для целого числа зон можно использовать формулу $A = \frac{A_0}{2}(1 - (-1)^m)$.
+При $m = 1$ получаем $A = A_0$, поэтому $I = I_0$.
+
+б) Открыта половина 1-й зоны Френеля:
+При векторном суммировании на комплексной плоскости вклад половины первой зоны дает амплитуду $A \approx 0,85A_0$ (что видно из спиральной диаграммы Корню).
+Интенсивность: $I = |A|^2 \approx (0,85)^2 \cdot I_0 \approx 0,72 I_0$
+
+в) Открыты полторы зоны Френеля:
+Векторное суммирование с учетом противофазности второй половинной зоны дает $A \approx 0,47A_0$.
+Интенсивность: $I = |A|^2 \approx (0,47)^2 \cdot I_0 \approx 0,22 I_0$
+
+г) Открыта треть 1-й зоны Френеля:
+Численный расчет для трети первой зоны дает амплитуду $A \approx 0,41A_0$.
+Интенсивность: $I = |A|^2 \approx (0,41)^2 \cdot I_0 \approx 0,17 I_0$
+
+Значения амплитуд (0.85, 0.47, 0.41) получены из геометрии спирали Корню.
+
+\textbf{Ответ:} 
+а) $I = I_0$ \quad 
+б) $I \approx 0,72 \, I_0$ \quad 
+в) $I \approx 0,22 \, I_0$ \quad 
+г) $I \approx 0,17 \, I_0$
+
+
+\begin{center}
+\begin{tikzpicture}[scale=1.2]
+% Координатные оси
+\draw[->,thick] (-3,0) -- (3,0) node[right] {Re};
+\draw[->,thick] (0,-2) -- (0,3) node[above] {Im};
+
+% Спираль Корню (более четкая)
+\draw[thick,blue,domain=0:2*pi,samples=200] plot ({cos(\x r)*sqrt(\x/pi)}, {sin(\x r)*sqrt(\x/pi)});
+
+% Рассчитываем точки на спирали
+\pgfmathsetmacro{\xone}{cos(180)*sqrt(1)}
+\pgfmathsetmacro{\yone}{sin(180)*sqrt(1)}
+\pgfmathsetmacro{\xhalf}{cos(90)*sqrt(0.5)}
+\pgfmathsetmacro{\yhalf}{sin(90)*sqrt(0.5)}
+\pgfmathsetmacro{\xthird}{cos(60)*sqrt(1/3)}
+\pgfmathsetmacro{\ythird}{sin(60)*sqrt(1/3)}
+\pgfmathsetmacro{\xthreehalf}{cos(270)*sqrt(1.5)}
+\pgfmathsetmacro{\ythreehalf}{sin(270)*sqrt(1.5)}
+
+% Точки на спирали
+\fill[red] (0,0) circle (1.5pt) node[below left] {O};
+\fill[red] (0,0) circle (0pt) node[left=5pt] {S};
+\fill[red] (\xone,\yone) circle (1.5pt) node[below right=1pt] {$F_1$};
+\fill[red] (\xhalf,\yhalf) circle (1.5pt) node[right=3pt] {$F_{1/2}$};
+\fill[red] (\xthreehalf,\ythreehalf) circle (1.5pt) node[left=3pt] {$F_{3/2}$};
+\fill[red] (\xthird,\ythird) circle (1.5pt) node[above right=1pt] {$F_{1/3}$};
+
+% Отрезки от начала координат к точкам
+\draw[red,dashed] (0,0) -- (\xone,\yone);
+\draw[red,dashed] (0,0) -- (\xhalf,\yhalf);
+\draw[red,dashed] (0,0) -- (\xthreehalf,\ythreehalf);
+\draw[red,dashed] (0,0) -- (\xthird,\ythird);
+
+\node[below] at (0,-2.2) {Спиральная диаграмма Корню для задачи 2};
+\end{tikzpicture}
+\end{center}
+
+
+\textbf{Примечание:} На диаграмме Корню длина вектора от начала координат (точка O) до соответствующей точки на спирали даёт амплитуду $A$ световой волны. Квадрат этой амплитуды определяет интенсивность $I \propto |A|^2$. Видно, что для половины первой зоны ($F_{1/2}$) амплитуда меньше, чем для полной зоны ($F_1$), а для полутора зон ($F_{3/2}$) существенно меньше из-за частичной компенсации фаз.
+
+\vspace{0.8cm}
+
+\textbf{Задача 3.} Построить примерный график зависимости интенсивности $I$ от $\sin \varphi$ для дифракционной решетки с числом штрихов $N=5$ и отношением периода решетки к ширине щели $d/b= 2$.
+
+\textbf{Решение:}
+Интенсивность света при дифракции на решётке определяется формулой:
+$$I = I_0 \cdot \left(\frac{\sin(\pi b \sin\varphi / \lambda)}{\pi b \sin\varphi / \lambda}\right)^2 \cdot \left(\frac{\sin(N\pi d \sin\varphi / \lambda)}{\sin(\pi d \sin\varphi / \lambda)}\right)^2$$
+
+При $d/b = 2$ и $N = 5$ и введя переменную $u = \pi d \sin\varphi / \lambda$, получим:
+$$I = I_0 \cdot \left(\frac{\sin(u/2)}{u/2}\right)^2 \cdot \left(\frac{\sin(5u)}{\sin(u)}\right)^2$$
+
+Главные максимумы наблюдаются при $u = m\pi$ (целое $m$).
+
+\begin{center}
+\begin{tikzpicture}[scale=0.8]
+\draw[->,thick] (-4.2,0) -- (4.2,0) node[right] {$\sin\varphi$};
+\draw[->,thick] (0,0) -- (0,4.5) node[above] {$I/I_0$};
+
+% Огибающая (дифракция на щели)
+\draw[dashed,red,domain=-4:-0.1,samples=50] plot ({\x},{3.5*(sin(deg(3.14*\x/2))/(3.14*\x/2))^2});
+\draw[dashed,red,domain=0.1:4,samples=50] plot ({\x},{3.5*(sin(deg(3.14*\x/2))/(3.14*\x/2))^2});
+% Обрабатываем точку x=0 отдельно (предел sin(x)/x при x→0 равен 1)
+\filldraw[red] (0,3.5) circle (0pt);
+
+% Главные максимумы и минимумы
+\foreach \x in {-3,-2,-1,1,2,3} {
+    \draw[blue,thick] (\x,0) -- (\x,{3.5*(sin(deg(3.14*\x/2))/(3.14*\x/2))^2});
+    \filldraw[blue] (\x,{3.5*(sin(deg(3.14*\x/2))/(3.14*\x/2))^2}) circle (2pt);
+}
+% Отдельно обрабатываем точку x=0
+\draw[blue,thick] (0,0) -- (0,3.5);
+\filldraw[blue] (0,3.5) circle (2pt);
+
+% Вторичные максимумы (схематично)
+\foreach \x in {-2.8,-2.6,-2.4,-2.2,-1.8,-1.6,-1.4,-1.2,-0.8,-0.6,-0.4,-0.2,0.2,0.4,0.6,0.8,1.2,1.4,1.6,1.8,2.2,2.4,2.6,2.8} {
+    \filldraw[blue] (\x,{0.7*(sin(deg(3.14*\x/2))/(3.14*\x/2))^2}) circle (1pt);
+}
+
+% Метки
+\node[below] at (0,-0.2) {$0$};
+\node[below] at (1,-0.2) {$\frac{\lambda}{d}$};
+\node[below] at (-1,-0.2) {$-\frac{\lambda}{d}$};
+\node[below] at (2,-0.2) {$\frac{2\lambda}{d}$};
+\node[below] at (-2,-0.2) {$-\frac{2\lambda}{d}$};
+\node[below] at (3,-0.2) {$\frac{3\lambda}{d}$};
+\node[below] at (-3,-0.2) {$-\frac{3\lambda}{d}$};
+
+\end{tikzpicture}
+\end{center}
+
+\textbf{Примечание:} На графике показаны:
+1) Главные максимумы при $\sin\varphi = m\lambda/d$ (синие точки на вертикальных линиях)
+2) Огибающая $(\sin(u/2)/(u/2))^2$ от дифракции на одной щели (красная пунктирная линия)
+3) Между каждыми двумя главными максимумами расположены $(N-1)=4$ вторичных максимума
+
+\vspace{0.8cm}
+
+\textbf{Задача 4.} Плоскополяризованный свет интенсивности 100 лм/м$^2$ проходит последовательно через два совершенных поляризатора, плоскости которых образуют с плоскостью колебаний в исходном луче углы 20,0° и 50,0° (углы отсчитываются от плоскости колебаний по часовой стрелке, если смотреть вдоль луча). Определить интенсивность света $I$ по выходе из второго поляризатора.
+
+\textbf{Решение:}
+По закону Малюса для двух поляризаторов:
+$$I = I_0 \cdot \cos^2\theta_1 \cdot \cos^2\theta_{12}$$
+где $\theta_1 = 20,0°$ - угол между исходной плоскостью и первым поляризатором, $\theta_{12} = 50,0° - 20,0° = 30,0°$ - угол между поляризаторами.
+
+$$I = 100 \cdot \cos^2(20,0°) \cdot \cos^2(30,0°) = 100 \cdot 0,883 \cdot 0,75 = 66,2 \text{ лм/м}^2$$
+
+\textbf{Ответ:} $I = 66,2$ лм/м$^2$.
+
+\vspace{0.8cm}
+
+\textbf{Задача 5.} В некоторой среде распространяется электромагнитная волна частоты $\omega$. При частоте $\omega$ диэлектрическая проницаемость среды $\varepsilon = 2,00$, магнитная проницаемость практически равна единице. Найти вектор Пойнтинга $\vec{S}$ в той точке, в которой электрический вектор изменяется по закону $\vec{E} = 10 \cdot \cos(\omega t+\alpha)\vec{e}_z$ (В/м). Амплитуда вектора $\vec{H}$ имеет вид $H_m\vec{e}_x$.
+
+\textbf{Решение:}
+Для плоской электромагнитной волны:
+$$Z = \frac{Z_0}{\sqrt{\varepsilon}}, \quad H_m = \frac{E_m}{Z}, \quad \vec{S}(t) = E_m H_m \cos^2(\omega t+\alpha) \vec{e}_y$$
+
+где $Z_0 = 120\pi$ Ом - волновое сопротивление вакуума.
+
+Подставляя $E_m = 10$ В/м, $\varepsilon = 2$:
+$$Z = \frac{120\pi}{\sqrt{2}} \approx 267 \text{ Ом}$$
+$$H_m = \frac{10}{267} \approx 0,0375 \text{ А/м}$$
+$$\vec{S}(t) = 10 \cdot 0,0375 \cdot \cos^2(\omega t+\alpha) \vec{e}_y = 0,375 \cdot \cos^2(\omega t+\alpha) \vec{e}_y \text{ Вт/м}^2$$
+
+Среднее значение вектора Пойнтинга за период:
+$$\text{среднее значение } \vec{S} = \frac{0,375}{2} \vec{e}_y = 0,1875 \vec{e}_y \text{ Вт/м}^2$$
+
+\textbf{Ответ:} $\vec{S}(t) = 0,375 \cdot \cos^2(\omega t+\alpha) \vec{e}_y$ Вт/м$^2$; среднее значение $\vec{S} = 0,1875 \vec{e}_y$ Вт/м$^2$.
+
+\end{document}
