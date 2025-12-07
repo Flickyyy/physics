@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.8.26)  10 NOV 2025 21:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.11.20)  7 DEC 2025 16:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -240,7 +240,7 @@ File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 Package: babel 2023/02/13 3.86 The Babel package
 \babel@savecnt=\count193
 \U@D=\dimen141
-\l@unhyphenated=\language86
+\l@unhyphenated=\language85
  (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count194
@@ -254,9 +254,9 @@ Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
 Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language72). Reported on input line 105.
+(babel)             (\language26). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language72). Reported on input line 108.
+(babel)             (\language26). Reported on input line 108.
 )) (/usr/share/texlive/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
 Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 11.
@@ -720,11 +720,11 @@ LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 6
 (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-<figs/rectangular_well.png, id=60, 638.385pt x 492.6405pt>
+<figs/rectangular_well.png, id=60, 642.4803pt x 497.4585pt>
 File: figs/rectangular_well.png Graphic file (type png)
 <use figs/rectangular_well.png>
 Package pdftex.def Info: figs/rectangular_well.png  used on input line 85.
-(pdftex.def)             Requested size: 409.71692pt x 316.17586pt.
+(pdftex.def)             Requested size: 409.71692pt x 317.23375pt.
  [2{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 Overfull \hbox (11.26097pt too wide) in paragraph at lines 89--90
 \T2A/cmr/m/n/12 На рисунке показаны первые пять собственных состояний прямоугольной ямы. Хорошо
@@ -756,16 +756,16 @@ Overfull \hbox (10.23611pt too wide) in paragraph at lines 97--99
  []
 
 [3 <./figs/rectangular_well.png>]
-<figs/convergence.png, id=82, 466.3824pt x 288.8391pt>
+<figs/convergence.png, id=82, 457.71pt x 282.3348pt>
 File: figs/convergence.png Graphic file (type png)
 <use figs/convergence.png>
 Package pdftex.def Info: figs/convergence.png  used on input line 106.
-(pdftex.def)             Requested size: 364.19667pt x 225.5536pt.
-<figs/width_dependence.png, id=83, 634.2897pt x 400.1349pt>
+(pdftex.def)             Requested size: 364.19667pt x 224.66187pt.
+<figs/width_dependence.png, id=83, 625.8582pt x 393.6306pt>
 File: figs/width_dependence.png Graphic file (type png)
 <use figs/width_dependence.png>
 Package pdftex.def Info: figs/width_dependence.png  used on input line 115.
-(pdftex.def)             Requested size: 364.19667pt x 229.74606pt.
+(pdftex.def)             Requested size: 364.19667pt x 229.0627pt.
  [4 <./figs/convergence.png>]
 Overfull \hbox (36.10814pt too wide) in paragraph at lines 119--120
 \T2A/cmr/m/n/12 Как и ожидалось из аналитических соображений, энергия основного состояния уменьшается
@@ -816,15 +816,15 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 3654D500802E5A6E47181F66B4839B85;2017.
  ) 
 Here is how much of TeX's memory you used:
- 16049 strings out of 476034
- 251754 string characters out of 5792864
+ 16049 strings out of 476041
+ 251754 string characters out of 5793173
  1858388 words of memory out of 6000000
- 36249 multiletter control sequences out of 15000+600000
+ 36248 multiletter control sequences out of 15000+600000
  525684 words of font info for 62 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  75i,13n,76p,727b,494s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (6 pages, 813172 bytes).
+Output written on main.pdf (6 pages, 795419 bytes).
 PDF statistics:
  175 PDF objects out of 1000 (max. 8388607)
  128 compressed objects within 2 object streams
